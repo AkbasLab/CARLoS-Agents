@@ -12,7 +12,7 @@ from src.presentation_agent import PresentationAgent
 from src.graphics import render_simulation
 import matplotlib.pyplot as plt
 
-LAYOUT_FILE_PATH = r"C:\Users\hp\OneDrive\Desktop\Working_Carlos\src\layouts\path1.txt"
+LAYOUT_FILE_PATH = r"C:\Users\hp\OneDrive\Desktop\CARLoS-Agents\src\layouts\path1.txt"
 
 class CarlosGymEnv(gym.Env):
     def __init__(self):
