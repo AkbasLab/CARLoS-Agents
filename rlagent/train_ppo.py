@@ -8,9 +8,14 @@ def main():
         policy="MlpPolicy",
         env=env,
         verbose=1,
-        tensorboard_log="./ppo_tensorboard/", 
+        tensorboard_log="./ppo_tensorboard/",
+        learning_rate=3e-4,   
+        n_steps=2048,         
+        batch_size=64,        
+        gamma=0.99,           
+        clip_range=0.2
     )
-    total_timesteps = 50000
+    total_timesteps = 100000
     model.learn(total_timesteps=total_timesteps)
 
     model.save("ppo_carlos_agent")

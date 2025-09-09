@@ -8,10 +8,15 @@ def main():
         policy="MlpPolicy",
         env=env,
         verbose=1,
-        tensorboard_log="./sac_tensorboard/", 
+        tensorboard_log="./sac_tensorboard/",
+        learning_rate = 3e-4,
+        ent_coef = "auto",      
+        gamma = 0.99,           
+        batch_size = 256,      
+        tau = 0.005
     )
 
-    total_timesteps = 50000 
+    total_timesteps = 100000
     model.learn(total_timesteps=total_timesteps)
 
     model.save("sac_carlos_agent")

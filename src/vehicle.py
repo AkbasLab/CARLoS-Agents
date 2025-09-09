@@ -12,7 +12,7 @@ class Vehicle:
 
     def __init__(
         self,
-        vehicle_length_ft: float = 12,
+        vehicle_length_ft: float = 15,
         vehicle_width_ft: float = 6,
         min_speed_mph: float = 0.0,
         max_speed_mph: float = 150.0,

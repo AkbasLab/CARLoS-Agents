@@ -19,8 +19,8 @@ class LayoutCreatorApp(tk.Frame):
 
         self.figure, self.ax = plt.subplots()
 
-        self.legend_visible = False  
-        self.closed_loop_lane = False
+        self.legend_visible = True  
+        self.closed_loop_lane = True
         self.lane_width = 12.0 
         self.last_selected = None
         self.plot_center = False

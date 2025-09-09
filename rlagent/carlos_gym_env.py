@@ -12,7 +12,7 @@ from src.presentation_agent import PresentationAgent
 from src.graphics import render_simulation
 import matplotlib.pyplot as plt
 
-LAYOUT_FILE_PATH = r"C:\Users\hp\OneDrive\Desktop\CARLoS-Agents\src\layouts\path1.txt"
+LAYOUT_FILE_PATH = r"C:\Users\hp\OneDrive\Desktop\CARLoS-Agents\src\layouts\train_path.txt"
 
 class CarlosGymEnv(gym.Env):
     def __init__(self):
@@ -26,9 +26,9 @@ class CarlosGymEnv(gym.Env):
         self.environment = Environment(self.lane)
         self.vehicle = Vehicle()
 
-        NUM_SENSORS = 8                   
-        SENSOR_LENGTH = 100.0                 
-        SENSOR_ANGLE_SPREAD = np.pi / 2    
+        NUM_SENSORS = 12                   
+        SENSOR_LENGTH = 120.0                 
+        SENSOR_ANGLE_SPREAD = 2 * np.pi    
 
         self.sensor_array = SensorArray(
             num_sensors=NUM_SENSORS,
@@ -43,7 +43,7 @@ class CarlosGymEnv(gym.Env):
         self.observation_space = spaces.Box(
             low=0.0,
             high=100.0,
-            shape=(self.num_sensors,),
+            shape=(12,),
             dtype=np.float32
         )
 
