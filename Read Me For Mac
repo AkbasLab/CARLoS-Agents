@@ -1,0 +1,6 @@
+1. After downloading the zip file, click on it to get the folder and put it on your desktop.
+2. Open your terminal and write "cd /Users/insert your name here/Desktop/CARLoS-Agents-main" and then press enter. If you want to copy it yourself, right-click on anything inside the main folder and copy the part that starts with 'Where:'.
+3. Write "source rl_env/Scripts/activate" in the terminal and press enter.
+4. Write "pip3 install -r requirements.txt" in the terminal and press enter.
+5. Write "python3 -m rlagent.test_env" in the terminal and press enter. If the terminal is on full screen, exit it because then you may not see the simulation.
+Now you should see logs in the terminal and a simulation window open.
