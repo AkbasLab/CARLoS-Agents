@@ -1,5 +1,7 @@
-matplotlib
-numpy
-torch
-pygame
-scipy
+numpy==1.23.5 
+scipy==1.10.1 
+matplotlib==3.7.2 
+pygame==2.5.2 
+torch==2.2.2 
+gymnasium==0.29.1
+stable-baselines3[extra]

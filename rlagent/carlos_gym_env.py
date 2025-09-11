@@ -11,8 +11,10 @@ from src.sensor_array import SensorArray
 from src.presentation_agent import PresentationAgent 
 from src.graphics import render_simulation
 import matplotlib.pyplot as plt
+import os
 
-LAYOUT_FILE_PATH = r"C:\Users\hp\OneDrive\Desktop\CARLoS-Agents\src\layouts\train_path.txt"
+base_dir = os.path.dirname(__file__)  
+LAYOUT_FILE_PATH = os.path.join(os.path.dirname(base_dir), "src", "layouts", "train_path.txt")
 
 class CarlosGymEnv(gym.Env):
     def __init__(self):
