@@ -7,7 +7,6 @@ from src.point import Point
 from src.sensor_array import SensorArray
 import numpy as np
 
-
 def list_points_as_values(point_list: list[Point]) -> tuple[list[float], list[float]]:
     x = []
     y = []
@@ -119,6 +118,10 @@ def render_simulation(sim: Simulation):
     plt.clf()
     env = sim.environment
     plot_environment(env)  
+    for obstacle in env.obstacles:
+        circle = plt.Circle(obstacle.position, obstacle.radius, color='red')
+        plt.gca().add_patch(circle)
+
     vehicle = sim.vehicle
     plot_vehicle(vehicle)  
     sensors = sim.agent.sensors  

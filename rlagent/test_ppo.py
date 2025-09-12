@@ -1,10 +1,11 @@
 from stable_baselines3 import PPO
 from rlagent.carlos_gym_env import CarlosGymEnv
+import numpy as np
 
 env = CarlosGymEnv()
 model = PPO.load("ppo_carlos_agent")  
 
-num_episodes = 20
+num_episodes = 30
 for episode in range(num_episodes):
     obs, info = env.reset()
     print(f"Episode {episode + 1} initial observation:", obs)
@@ -13,7 +14,7 @@ for episode in range(num_episodes):
         action = env.action_space.sample()
         obs, reward, terminated, truncated, info = env.step(action)
         print(obs, reward, terminated, truncated, info)
-        env.render() 
+        #env.render() 
 
 print("Evaluation finished.")
 

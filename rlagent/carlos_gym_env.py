@@ -11,8 +11,36 @@ from src.sensor_array import SensorArray
 from src.presentation_agent import PresentationAgent 
 from src.graphics import render_simulation
 import matplotlib.pyplot as plt
+from src.obstacle import Obstacle
+from src.point import Point
 
 LAYOUT_FILE_PATH = r"C:\Users\hp\OneDrive\Desktop\CARLoS-Agents\src\layouts\train_path.txt"
+
+from src.point import Point
+
+def place_obstacle_along_lane(environment, lane, longitudinal_ratio, lateral_offset, radius):
+    center_line_pts = lane.center_line
+    n_points = len(center_line_pts)
+    idx = int(longitudinal_ratio * (n_points - 1))
+    
+    center_point = center_line_pts[idx]
+    if idx < n_points - 1:
+        next_point = center_line_pts[idx + 1]
+    else:
+        next_point = center_line_pts[idx - 1]
+    
+    dx = next_point.x - center_point.x
+    dy = next_point.y - center_point.y
+    length = (dx ** 2 + dy ** 2) ** 0.5
+    
+    perp_x = -dy / length
+    perp_y = dx / length
+    
+    obs_x = center_point.x + lateral_offset * perp_x
+    obs_y = center_point.y + lateral_offset * perp_y
+    
+    environment.add_obstacle(Obstacle(position=(obs_x, obs_y), radius=radius))
+    print(f"Placed obstacle at: {(obs_x, obs_y)}, radius: {radius}")
 
 class CarlosGymEnv(gym.Env):
     def __init__(self):
@@ -24,6 +52,13 @@ class CarlosGymEnv(gym.Env):
             closed_loop=closed_loop
         )
         self.environment = Environment(self.lane)
+        place_obstacle_along_lane(self.environment, self.lane, longitudinal_ratio=0.16, lateral_offset=1.5, radius=0.5)
+        place_obstacle_along_lane(self.environment, self.lane, longitudinal_ratio=0.32, lateral_offset=-1.0, radius=1)
+        place_obstacle_along_lane(self.environment, self.lane, longitudinal_ratio=0.48, lateral_offset=-0.5, radius=2.5)
+        place_obstacle_along_lane(self.environment, self.lane, longitudinal_ratio=0.64, lateral_offset=-1.0, radius=0.5) 
+        place_obstacle_along_lane(self.environment, self.lane, longitudinal_ratio=0.80, lateral_offset=1.5, radius=1)
+        place_obstacle_along_lane(self.environment, self.lane, longitudinal_ratio=0.96, lateral_offset=-1.0, radius=2.5)
+
         self.vehicle = Vehicle()
 
         NUM_SENSORS = 12                   
@@ -61,6 +96,21 @@ class CarlosGymEnv(gym.Env):
         self.sim.sim_random_reset()
         obs = self._get_observation()
         return obs, {}
+    
+    def calculate_safety_margin(self, vehicle_pos):
+        # Helper to compute shortest distance from vehicle to lane edges
+        def dist(p1, p2):
+            return ((p1[0] - p2.x) ** 2 + (p1[1] - p2.y) ** 2) ** 0.5
+
+        left_distances = [dist(vehicle_pos, pt) for pt in self.lane.left_edge]
+        right_distances = [dist(vehicle_pos, pt) for pt in self.lane.right_edge]
+
+        min_left = min(left_distances)
+        min_right = min(right_distances)
+
+        safety_margin = min(min_left, min_right)
+        return safety_margin
+
 
     def step(self, action):
         steering_norm = float(action[0])
@@ -80,10 +130,15 @@ class CarlosGymEnv(gym.Env):
         terminated = self.sim.is_done()
         truncated = self.current_step >= self.max_steps
         _, in_lane, in_motion = self.sim.get_sim_status()
+        collision = getattr(self.sim, '_collision', False)
+        vehicle_pos = (self.vehicle.center_point.x, self.vehicle.center_point.y)
+        safety_margin = self.calculate_safety_margin(vehicle_pos)
         info = {
         'in_lane': in_lane,
         'in_motion': in_motion,
-        'position': (self.vehicle.center_point.x, self.vehicle.center_point.y)
+        'collision': collision,
+        'position': (self.vehicle.center_point.x, self.vehicle.center_point.y),
+        'safety_margin': safety_margin
     }
         return obs, reward, terminated, truncated, info
 

@@ -4,9 +4,11 @@ from src.point import Point
 import numpy as np
 import src.vehicle_placement as VP
 
+
 class Environment:
     def __init__(self, lane: Lane):
         self.lane = lane
+        self.obstacles = []
 
     def set_lane(self, lane: Lane):
         self.lane = lane
@@ -60,6 +62,9 @@ class Environment:
         heading = np.arctan2(lane_direction.y, lane_direction.x) + angle_offset
 
         return center_point, heading
+    
+    def add_obstacle(self, obstacle):
+        self.obstacles.append(obstacle)
 
 def determine_distance(point: Point, segment_pt1: Point, segment_pt2: Point):
     x1, y1 = segment_pt1.values()
