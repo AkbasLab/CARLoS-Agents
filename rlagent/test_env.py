@@ -12,5 +12,3 @@ for episode in range(num_episodes):
         obs, reward, terminated, truncated, info = env.step(action)
         print(obs, reward, terminated, truncated, info)
         env.render() 
-
-#rl_env\Scripts\activate
