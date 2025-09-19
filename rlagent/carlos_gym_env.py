@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 from src.obstacle import Obstacle
 from src.point import Point
 
-LAYOUT_FILE_PATH = r"C:\Users\hp\OneDrive\Desktop\CARLoS-Agents\src\layouts\train_path.txt"
+LAYOUT_FILE_PATH = r".\src\layouts\train_path.txt"
 
 from src.point import Point
 

@@ -1,2 +1,2 @@
 # Ignore virtual environment
-rl_env/
+venv/
