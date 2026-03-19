@@ -1,0 +1,1634 @@
+
+====================================================================
+  SAC EVALUATION — ALL CONDITIONS
+  Conditions : 16  (4 lane widths × 4 obstacle counts)
+  Seeds      : [42, 68, 101]
+  Episodes   : 100 per (condition × seed)  →  4800 total
+====================================================================
+
+  Condition                  LVR% mean±SD     Col% mean±SD    Succ% mean±SD
+  ────────────────────── ──────────────── ──────────────── ────────────────
+    seed 42  episode 1/100 ...
+    seed 42  episode 25/100 ...
+    seed 42  episode 50/100 ...
+    seed 42  episode 75/100 ...
+    seed 42  episode 100/100 ...
+    seed 68  episode 1/100 ...
+    seed 68  episode 25/100 ...
+    seed 68  episode 50/100 ...
+    seed 68  episode 75/100 ...
+    seed 68  episode 100/100 ...
+    seed 101  episode 1/100 ...
+    seed 101  episode 25/100 ...
+    seed 101  episode 50/100 ...
+    seed 101  episode 75/100 ...
+    seed 101  episode 100/100 ...
+  10ft / 4 obstacles             95.33 ± 0.58      3.33 ± 0.58      1.33 ± 0.58
+    seed 42  episode 1/100 ...
+    seed 42  episode 25/100 ...
+    seed 42  episode 50/100 ...
+    seed 42  episode 75/100 ...
+    seed 42  episode 100/100 ...
+    seed 68  episode 1/100 ...
+    seed 68  episode 25/100 ...
+    seed 68  episode 50/100 ...
+    seed 68  episode 75/100 ...
+    seed 68  episode 100/100 ...
+    seed 101  episode 1/100 ...
+    seed 101  episode 25/100 ...
+    seed 101  episode 50/100 ...
+    seed 101  episode 75/100 ...
+    seed 101  episode 100/100 ...
+  10ft / 6 obstacles             85.00 ± 3.00     13.67 ± 2.89      1.33 ± 1.53
+    seed 42  episode 1/100 ...
+    seed 42  episode 25/100 ...
+    seed 42  episode 50/100 ...
+    seed 42  episode 75/100 ...
+    seed 42  episode 100/100 ...
+    seed 68  episode 1/100 ...
+    seed 68  episode 25/100 ...
+    seed 68  episode 50/100 ...
+    seed 68  episode 75/100 ...
+    seed 68  episode 100/100 ...
+    seed 101  episode 1/100 ...
+    seed 101  episode 25/100 ...
+    seed 101  episode 50/100 ...
+    seed 101  episode 75/100 ...
+    seed 101  episode 100/100 ...
+  10ft / 8 obstacles             81.67 ± 6.03     18.00 ± 6.00      0.33 ± 0.58
+    seed 42  episode 1/100 ...
+    seed 42  episode 25/100 ...
+    seed 42  episode 50/100 ...
+    seed 42  episode 75/100 ...
+    seed 42  episode 100/100 ...
+    seed 68  episode 1/100 ...
+    seed 68  episode 25/100 ...
+    seed 68  episode 50/100 ...
+    seed 68  episode 75/100 ...
+    seed 68  episode 100/100 ...
+    seed 101  episode 1/100 ...
+    seed 101  episode 25/100 ...
+    seed 101  episode 50/100 ...
+    seed 101  episode 75/100 ...
+    seed 101  episode 100/100 ...
+  10ft / 10 obstacles             80.33 ± 4.04     19.33 ± 4.51      0.33 ± 0.58
+    seed 42  episode 1/100 ...
+    seed 42  episode 25/100 ...
+    seed 42  episode 50/100 ...
+    seed 42  episode 75/100 ...
+    seed 42  episode 100/100 ...
+    seed 68  episode 1/100 ...
+    seed 68  episode 25/100 ...
+    seed 68  episode 50/100 ...
+    seed 68  episode 75/100 ...
+    seed 68  episode 100/100 ...
+    seed 101  episode 1/100 ...
+    seed 101  episode 25/100 ...
+    seed 101  episode 50/100 ...
+    seed 101  episode 75/100 ...
+    seed 101  episode 100/100 ...
+  11ft / 4 obstacles             95.67 ± 0.58      3.33 ± 1.15      1.00 ± 1.00
+    seed 42  episode 1/100 ...
+    seed 42  episode 25/100 ...
+    seed 42  episode 50/100 ...
+    seed 42  episode 75/100 ...
+    seed 42  episode 100/100 ...
+    seed 68  episode 1/100 ...
+    seed 68  episode 25/100 ...
+    seed 68  episode 50/100 ...
+    seed 68  episode 75/100 ...
+    seed 68  episode 100/100 ...
+    seed 101  episode 1/100 ...
+    seed 101  episode 25/100 ...
+    seed 101  episode 50/100 ...
+    seed 101  episode 75/100 ...
+    seed 101  episode 100/100 ...
+  11ft / 6 obstacles             84.67 ± 2.89     13.00 ± 1.00      2.33 ± 2.08
+    seed 42  episode 1/100 ...
+    seed 42  episode 25/100 ...
+    seed 42  episode 50/100 ...
+    seed 42  episode 75/100 ...
+    seed 42  episode 100/100 ...
+    seed 68  episode 1/100 ...
+    seed 68  episode 25/100 ...
+    seed 68  episode 50/100 ...
+    seed 68  episode 75/100 ...
+    seed 68  episode 100/100 ...
+    seed 101  episode 1/100 ...
+    seed 101  episode 25/100 ...
+    seed 101  episode 50/100 ...
+    seed 101  episode 75/100 ...
+    seed 101  episode 100/100 ...
+  11ft / 8 obstacles             82.33 ± 6.11     17.33 ± 6.03      0.33 ± 0.58
+    seed 42  episode 1/100 ...
+    seed 42  episode 25/100 ...
+    seed 42  episode 50/100 ...
+    seed 42  episode 75/100 ...
+    seed 42  episode 100/100 ...
+    seed 68  episode 1/100 ...
+    seed 68  episode 25/100 ...
+    seed 68  episode 50/100 ...
+    seed 68  episode 75/100 ...
+    seed 68  episode 100/100 ...
+    seed 101  episode 1/100 ...
+    seed 101  episode 25/100 ...
+    seed 101  episode 50/100 ...
+    seed 101  episode 75/100 ...
+    seed 101  episode 100/100 ...
+  11ft / 10 obstacles             81.67 ± 3.21     18.00 ± 3.61      0.33 ± 0.58
+    seed 42  episode 1/100 ...
+    seed 42  episode 25/100 ...
+    seed 42  episode 50/100 ...
+    seed 42  episode 75/100 ...
+    seed 42  episode 100/100 ...
+    seed 68  episode 1/100 ...
+    seed 68  episode 25/100 ...
+    seed 68  episode 50/100 ...
+    seed 68  episode 75/100 ...
+    seed 68  episode 100/100 ...
+    seed 101  episode 1/100 ...
+    seed 101  episode 25/100 ...
+    seed 101  episode 50/100 ...
+    seed 101  episode 75/100 ...
+    seed 101  episode 100/100 ...
+  12ft / 4 obstacles             95.67 ± 1.15      3.00 ± 1.00      1.33 ± 0.58
+    seed 42  episode 1/100 ...
+    seed 42  episode 25/100 ...
+    seed 42  episode 50/100 ...
+    seed 42  episode 75/100 ...
+    seed 42  episode 100/100 ...
+    seed 68  episode 1/100 ...
+    seed 68  episode 25/100 ...
+    seed 68  episode 50/100 ...
+    seed 68  episode 75/100 ...
+    seed 68  episode 100/100 ...
+    seed 101  episode 1/100 ...
+    seed 101  episode 25/100 ...
+    seed 101  episode 50/100 ...
+    seed 101  episode 75/100 ...
+    seed 101  episode 100/100 ...
+  12ft / 6 obstacles             84.33 ± 3.06     13.33 ± 2.52      2.33 ± 2.08
+    seed 42  episode 1/100 ...
+    seed 42  episode 25/100 ...
+    seed 42  episode 50/100 ...
+    seed 42  episode 75/100 ...
+    seed 42  episode 100/100 ...
+    seed 68  episode 1/100 ...
+    seed 68  episode 25/100 ...
+    seed 68  episode 50/100 ...
+    seed 68  episode 75/100 ...
+    seed 68  episode 100/100 ...
+    seed 101  episode 1/100 ...
+    seed 101  episode 25/100 ...
+    seed 101  episode 50/100 ...
+    seed 101  episode 75/100 ...
+    seed 101  episode 100/100 ...
+  12ft / 8 obstacles             80.67 ± 6.66     18.67 ± 6.51      0.67 ± 1.15
+    seed 42  episode 1/100 ...
+    seed 42  episode 25/100 ...
+    seed 42  episode 50/100 ...
+    seed 42  episode 75/100 ...
+    seed 42  episode 100/100 ...
+    seed 68  episode 1/100 ...
+    seed 68  episode 25/100 ...
+    seed 68  episode 50/100 ...
+    seed 68  episode 75/100 ...
+    seed 68  episode 100/100 ...
+    seed 101  episode 1/100 ...
+    seed 101  episode 25/100 ...
+    seed 101  episode 50/100 ...
+    seed 101  episode 75/100 ...
+    seed 101  episode 100/100 ...
+  12ft / 10 obstacles             80.00 ± 2.65     19.67 ± 3.06      0.33 ± 0.58
+    seed 42  episode 1/100 ...
+    seed 42  episode 25/100 ...
+    seed 42  episode 50/100 ...
+    seed 42  episode 75/100 ...
+    seed 42  episode 100/100 ...
+    seed 68  episode 1/100 ...
+    seed 68  episode 25/100 ...
+    seed 68  episode 50/100 ...
+    seed 68  episode 75/100 ...
+    seed 68  episode 100/100 ...
+    seed 101  episode 1/100 ...
+    seed 101  episode 25/100 ...
+    seed 101  episode 50/100 ...
+    seed 101  episode 75/100 ...
+    seed 101  episode 100/100 ...
+  14ft / 4 obstacles             96.00 ± 1.00      3.00 ± 1.73      1.00 ± 1.00
+    seed 42  episode 1/100 ...
+    seed 42  episode 25/100 ...
+    seed 42  episode 50/100 ...
+    seed 42  episode 75/100 ...
+    seed 42  episode 100/100 ...
+    seed 68  episode 1/100 ...
+    seed 68  episode 25/100 ...
+    seed 68  episode 50/100 ...
+    seed 68  episode 75/100 ...
+    seed 68  episode 100/100 ...
+    seed 101  episode 1/100 ...
+    seed 101  episode 25/100 ...
+    seed 101  episode 50/100 ...
+    seed 101  episode 75/100 ...
+    seed 101  episode 100/100 ...
+  14ft / 6 obstacles             85.67 ± 2.31     12.00 ± 2.65      2.33 ± 2.08
+    seed 42  episode 1/100 ...
+    seed 42  episode 25/100 ...
+    seed 42  episode 50/100 ...
+    seed 42  episode 75/100 ...
+    seed 42  episode 100/100 ...
+    seed 68  episode 1/100 ...
+    seed 68  episode 25/100 ...
+    seed 68  episode 50/100 ...
+    seed 68  episode 75/100 ...
+    seed 68  episode 100/100 ...
+    seed 101  episode 1/100 ...
+    seed 101  episode 25/100 ...
+    seed 101  episode 50/100 ...
+    seed 101  episode 75/100 ...
+    seed 101  episode 100/100 ...
+  14ft / 8 obstacles             86.67 ± 6.66     12.33 ± 6.51      1.00 ± 1.73
+    seed 42  episode 1/100 ...
+    seed 42  episode 25/100 ...
+    seed 42  episode 50/100 ...
+    seed 42  episode 75/100 ...
+    seed 42  episode 100/100 ...
+    seed 68  episode 1/100 ...
+    seed 68  episode 25/100 ...
+    seed 68  episode 50/100 ...
+    seed 68  episode 75/100 ...
+    seed 68  episode 100/100 ...
+    seed 101  episode 1/100 ...
+    seed 101  episode 25/100 ...
+    seed 101  episode 50/100 ...
+    seed 101  episode 75/100 ...
+    seed 101  episode 100/100 ...
+  14ft / 10 obstacles             82.67 ± 0.58     17.00 ± 1.00      0.33 ± 0.58
+
+====================================================================
+  CONDITION: Lane Width = 10 ft  |  Obstacles = 4  |  100 ep/seed × 3 seeds = 300 total episodes
+====================================================================
+
+  ┌─ EPISODE OUTCOMES
+  │  Lane Violation Rate  : 95.33 ± 0.58 %
+  │  Collision Rate       : 3.33 ± 0.58 %
+  │  Success Rate         : 1.33 ± 0.58 %
+  │  Per-seed             : s42: LVR 95% Col 3% Succ 2%  s68: LVR 95% Col 4% Succ 1%  s101: LVR 96% Col 3% Succ 1%
+
+  ┌─ TIME TO FAILURE  (failed episodes only)
+  │  Mean TTF             : 17.69 ± 3.92 steps
+  │  Mean step at LV      : 18.00 ± 4.12 steps
+  │  Mean step at Col     : 9.47 ± 5.84 steps
+
+  ┌─ SURVIVAL PROBABILITY  S(t) = mean ± SD across seeds
+  │  Format: t=step: mean_S(t) ± SD_S(t)  (N=100 ep/seed, 3 seeds)
+  │  Overall (all failures):
+  │    t=0: 1.000±0.000  t=5: 0.400±0.040  t=10: 0.303±0.029  t=15: 0.267±0.021  t=20: 0.230±0.017  t=25: 0.190±0.035  t=30: 0.183±0.042  t=35: 0.167±0.040  t=40: 0.143±0.029  t=45: 0.130±0.026  t=50: 0.123±0.038  t=55: 0.113±0.035  t=60: 0.103±0.035  t=65: 0.097±0.035  t=70: 0.093±0.035  t=75: 0.087±0.031  t=80: 0.080±0.030  t=85: 0.073±0.021  t=90: 0.067±0.023  t=95: 0.067±0.023  t=100: 0.060±0.020  t=105: 0.060±0.020  t=110: 0.057±0.021  t=115: 0.050±0.017  t=120: 0.040±0.020  t=125: 0.040±0.020  t=130: 0.037±0.021  t=135: 0.023±0.015  t=140: 0.020±0.010  t=145: 0.020±0.010  t=150: 0.020±0.010  t=155: 0.020±0.010  t=160: 0.017±0.006  t=165: 0.017±0.006  t=170: 0.017±0.006  t=175: 0.017±0.006  t=180: 0.017±0.006  t=185: 0.017±0.006  t=190: 0.017±0.006  t=195: 0.017±0.006  t=199: 0.013±0.006
+  │  Lane Violation only:
+  │    t=0: 1.000±0.000  t=5: 0.413±0.045  t=10: 0.330±0.036  t=15: 0.297±0.011  t=20: 0.260±0.010  t=25: 0.220±0.026  t=30: 0.213±0.035  t=35: 0.197±0.035  t=40: 0.177±0.032  t=45: 0.163±0.031  t=50: 0.157±0.042  t=55: 0.147±0.040  t=60: 0.137±0.040  t=65: 0.130±0.040  t=70: 0.127±0.040  t=75: 0.120±0.036  t=80: 0.113±0.035  t=85: 0.107±0.025  t=90: 0.100±0.026  t=95: 0.100±0.026  t=100: 0.093±0.025  t=105: 0.093±0.025  t=110: 0.090±0.026  t=115: 0.083±0.023  t=120: 0.073±0.025  t=125: 0.073±0.025  t=130: 0.070±0.026  t=135: 0.057±0.021  t=140: 0.053±0.015  t=145: 0.053±0.015  t=150: 0.053±0.015  t=155: 0.053±0.015  t=160: 0.050±0.010  t=165: 0.050±0.010  t=170: 0.050±0.010  t=175: 0.050±0.010  t=180: 0.050±0.010  t=185: 0.050±0.010  t=190: 0.050±0.010  t=195: 0.050±0.010  t=199: 0.047±0.006
+  │  Collision only:
+  │    t=0: 1.000±0.000  t=5: 0.987±0.006  t=10: 0.973±0.011  t=15: 0.970±0.010  t=20: 0.970±0.010  t=25: 0.970±0.010  t=30: 0.970±0.010  t=35: 0.970±0.010  t=39: 0.967±0.006
+
+  ┌─ SAFETY MARGIN  (pre-failure steps, critical zone < 0.152 m)
+  │  Mean safety margin   : 2.07 ± 0.07 m
+  │  Mean min margin/ep   : 1.00 ± 0.09 m
+  │  Critical zone %%      : 1.31 ± 0.07 %% of steps
+
+  ┌─ CONTROL SMOOTHNESS  (all steps)
+  │  Mean smoothness      : 0.1957 ± 0.0071
+  │  Mean oscillation freq: 0.4832 ± 0.0106
+  │  Mean jerk            : 0.3782 ± 0.0157
+
+  ──────────────────────────────────────────────────────────────────
+  FAILURE MODE TAXONOMY  (% of failed episodes, mean ± SD across seeds)
+  ──────────────────────────────────────────────────────────────────
+  Type I   Boundary Drift          : 88.18 ± 2.06 %
+  Type II  Abrupt Collision         : 3.38 ± 0.57 %
+  Type III Oscillatory Instability  : 8.44 ± 2.31 %
+
+  Per-seed taxonomy:
+    seed 42  (98 failures):  I=88(89.8%)  II=3(3.1%)  III=7(7.1%)
+    seed 68  (99 failures):  I=88(88.9%)  II=4(4.0%)  III=7(7.1%)
+    seed 101  (99 failures):  I=85(85.9%)  II=3(3.0%)  III=11(11.1%)
+
+  ──────────────────────────────────────────────────────────────────
+  PER-TYPE FEATURE STATISTICS  (pooled across seeds)
+  ──────────────────────────────────────────────────────────────────
+
+  Type I   Boundary Drift  (n=261: 261 LV, 0 collision)
+    Drift slope            : -0.2770 ± 0.4706
+    Monotone drift frac    : 0.3461 ± 0.4105
+    Pre-failure margin(ft) : 1.3220 ± 1.0053
+    Osc frequency (window) : 0.1204 ± 0.1643
+    Mean jerk (window)     : 0.1718 ± 0.2469
+    Episode length (steps) : 17.1034 ± 33.0788
+
+  Type II  Abrupt Collision  (n=10: 0 LV, 10 collision)
+    Drift slope            : 0.0199 ± 0.2144
+    Monotone drift frac    : 0.3000 ± 0.3291
+    Pre-failure margin(ft) : 2.5683 ± 1.5884
+    Osc frequency (window) : 0.2200 ± 0.1989
+    Mean jerk (window)     : 0.1365 ± 0.1617
+    Episode length (steps) : 8.0000 ± 11.3725
+
+  Type III Oscillatory Instability  (n=25: 25 LV, 0 collision)
+    Drift slope            : -0.4240 ± 0.6419
+    Monotone drift frac    : 0.7466 ± 0.3169
+    Pre-failure margin(ft) : 1.6937 ± 1.0850
+    Osc frequency (window) : 0.5720 ± 0.0458
+    Mean jerk (window)     : 0.4499 ± 0.1634
+    Episode length (steps) : 16.0000 ± 26.8840
+
+====================================================================
+
+====================================================================
+  CONDITION: Lane Width = 10 ft  |  Obstacles = 6  |  100 ep/seed × 3 seeds = 300 total episodes
+====================================================================
+
+  ┌─ EPISODE OUTCOMES
+  │  Lane Violation Rate  : 85.00 ± 3.00 %
+  │  Collision Rate       : 13.67 ± 2.89 %
+  │  Success Rate         : 1.33 ± 1.53 %
+  │  Per-seed             : s42: LVR 82% Col 17% Succ 1%  s68: LVR 88% Col 12% Succ 0%  s101: LVR 85% Col 12% Succ 3%
+
+  ┌─ TIME TO FAILURE  (failed episodes only)
+  │  Mean TTF             : 17.80 ± 6.56 steps
+  │  Mean step at LV      : 13.25 ± 6.19 steps
+  │  Mean step at Col     : 45.62 ± 31.67 steps
+
+  ┌─ SURVIVAL PROBABILITY  S(t) = mean ± SD across seeds
+  │  Format: t=step: mean_S(t) ± SD_S(t)  (N=100 ep/seed, 3 seeds)
+  │  Overall (all failures):
+  │    t=0: 1.000±0.000  t=5: 0.393±0.064  t=10: 0.303±0.067  t=15: 0.243±0.067  t=20: 0.213±0.055  t=25: 0.190±0.050  t=30: 0.173±0.055  t=35: 0.147±0.055  t=40: 0.130±0.056  t=45: 0.123±0.051  t=50: 0.113±0.051  t=55: 0.100±0.046  t=60: 0.093±0.035  t=65: 0.093±0.035  t=70: 0.087±0.035  t=75: 0.080±0.026  t=80: 0.073±0.021  t=85: 0.073±0.021  t=90: 0.073±0.021  t=95: 0.063±0.011  t=100: 0.057±0.006  t=105: 0.053±0.011  t=110: 0.053±0.011  t=115: 0.050±0.010  t=120: 0.050±0.010  t=125: 0.047±0.011  t=130: 0.047±0.011  t=135: 0.043±0.015  t=140: 0.043±0.015  t=145: 0.043±0.015  t=150: 0.037±0.021  t=155: 0.037±0.021  t=160: 0.033±0.025  t=165: 0.033±0.025  t=170: 0.030±0.020  t=175: 0.027±0.015  t=180: 0.023±0.011  t=185: 0.023±0.011  t=190: 0.017±0.011  t=195: 0.017±0.011  t=196: 0.013±0.015
+  │  Lane Violation only:
+  │    t=0: 1.000±0.000  t=5: 0.430±0.053  t=10: 0.357±0.058  t=15: 0.317±0.049  t=20: 0.290±0.035  t=25: 0.270±0.026  t=30: 0.257±0.032  t=35: 0.233±0.029  t=40: 0.217±0.025  t=45: 0.213±0.025  t=50: 0.210±0.020  t=55: 0.207±0.015  t=60: 0.203±0.011  t=65: 0.203±0.011  t=70: 0.197±0.015  t=75: 0.190±0.017  t=80: 0.183±0.025  t=85: 0.183±0.025  t=90: 0.183±0.025  t=95: 0.173±0.021  t=100: 0.167±0.023  t=105: 0.167±0.023  t=110: 0.167±0.023  t=115: 0.163±0.021  t=120: 0.163±0.021  t=125: 0.160±0.020  t=130: 0.160±0.020  t=135: 0.157±0.021  t=140: 0.157±0.021  t=145: 0.157±0.021  t=150: 0.157±0.021  t=155: 0.157±0.021  t=160: 0.157±0.021  t=165: 0.157±0.021  t=170: 0.157±0.021  t=175: 0.157±0.021  t=180: 0.153±0.025  t=185: 0.153±0.025  t=190: 0.153±0.025  t=195: 0.153±0.025  t=196: 0.150±0.030
+  │  Collision only:
+  │    t=0: 1.000±0.000  t=5: 0.963±0.015  t=10: 0.947±0.021  t=15: 0.927±0.029  t=20: 0.923±0.032  t=25: 0.920±0.035  t=30: 0.917±0.029  t=35: 0.913±0.032  t=40: 0.913±0.032  t=45: 0.910±0.026  t=50: 0.903±0.032  t=55: 0.893±0.032  t=60: 0.890±0.026  t=65: 0.890±0.026  t=70: 0.890±0.026  t=75: 0.890±0.026  t=80: 0.890±0.026  t=85: 0.890±0.026  t=90: 0.890±0.026  t=95: 0.890±0.026  t=100: 0.890±0.026  t=105: 0.887±0.031  t=110: 0.887±0.031  t=115: 0.887±0.031  t=120: 0.887±0.031  t=125: 0.887±0.031  t=130: 0.887±0.031  t=135: 0.887±0.031  t=140: 0.887±0.031  t=145: 0.887±0.031  t=150: 0.880±0.040  t=155: 0.880±0.040  t=160: 0.877±0.045  t=165: 0.877±0.045  t=170: 0.873±0.040  t=175: 0.870±0.036  t=180: 0.870±0.036  t=185: 0.870±0.036  t=190: 0.863±0.029
+
+  ┌─ SAFETY MARGIN  (pre-failure steps, critical zone < 0.152 m)
+  │  Mean safety margin   : 1.97 ± 0.16 m
+  │  Mean min margin/ep   : 1.02 ± 0.11 m
+  │  Critical zone %%      : 2.20 ± 0.60 %% of steps
+
+  ┌─ CONTROL SMOOTHNESS  (all steps)
+  │  Mean smoothness      : 0.1701 ± 0.0053
+  │  Mean oscillation freq: 0.4907 ± 0.0173
+  │  Mean jerk            : 0.3510 ± 0.0338
+
+  ──────────────────────────────────────────────────────────────────
+  FAILURE MODE TAXONOMY  (% of failed episodes, mean ± SD across seeds)
+  ──────────────────────────────────────────────────────────────────
+  Type I   Boundary Drift          : 81.43 ± 0.91 %
+  Type II  Abrupt Collision         : 11.15 ± 0.17 %
+  Type III Oscillatory Instability  : 7.42 ± 1.07 %
+
+  Per-seed taxonomy:
+    seed 42  (99 failures):  I=80(80.8%)  II=11(11.1%)  III=8(8.1%)
+    seed 68  (100 failures):  I=81(81.0%)  II=11(11.0%)  III=8(8.0%)
+    seed 101  (97 failures):  I=80(82.5%)  II=11(11.3%)  III=6(6.2%)
+
+  ──────────────────────────────────────────────────────────────────
+  PER-TYPE FEATURE STATISTICS  (pooled across seeds)
+  ──────────────────────────────────────────────────────────────────
+
+  Type I   Boundary Drift  (n=241: 238 LV, 3 collision)
+    Drift slope            : -0.2771 ± 0.5110
+    Monotone drift frac    : 0.3358 ± 0.4197
+    Pre-failure margin(ft) : 1.1595 ± 0.9406
+    Osc frequency (window) : 0.1091 ± 0.1550
+    Mean jerk (window)     : 0.1502 ± 0.2314
+    Episode length (steps) : 13.0249 ± 30.0501
+
+  Type II  Abrupt Collision  (n=33: 0 LV, 33 collision)
+    Drift slope            : 0.0016 ± 0.2442
+    Monotone drift frac    : 0.3106 ± 0.3189
+    Pre-failure margin(ft) : 2.9407 ± 1.6698
+    Osc frequency (window) : 0.2182 ± 0.1828
+    Mean jerk (window)     : 0.2156 ± 0.3173
+    Episode length (steps) : 38.8182 ± 60.3358
+
+  Type III Oscillatory Instability  (n=22: 17 LV, 5 collision)
+    Drift slope            : -0.1836 ± 0.6616
+    Monotone drift frac    : 0.6060 ± 0.3556
+    Pre-failure margin(ft) : 2.0798 ± 1.1624
+    Osc frequency (window) : 0.5864 ± 0.0351
+    Mean jerk (window)     : 0.4371 ± 0.1628
+    Episode length (steps) : 25.7727 ± 27.1590
+
+====================================================================
+
+====================================================================
+  CONDITION: Lane Width = 10 ft  |  Obstacles = 8  |  100 ep/seed × 3 seeds = 300 total episodes
+====================================================================
+
+  ┌─ EPISODE OUTCOMES
+  │  Lane Violation Rate  : 81.67 ± 6.03 %
+  │  Collision Rate       : 18.00 ± 6.00 %
+  │  Success Rate         : 0.33 ± 0.58 %
+  │  Per-seed             : s42: LVR 88% Col 12% Succ 0%  s68: LVR 76% Col 24% Succ 0%  s101: LVR 81% Col 18% Succ 1%
+
+  ┌─ TIME TO FAILURE  (failed episodes only)
+  │  Mean TTF             : 14.16 ± 1.57 steps
+  │  Mean step at LV      : 10.99 ± 4.55 steps
+  │  Mean step at Col     : 26.18 ± 9.57 steps
+
+  ┌─ SURVIVAL PROBABILITY  S(t) = mean ± SD across seeds
+  │  Format: t=step: mean_S(t) ± SD_S(t)  (N=100 ep/seed, 3 seeds)
+  │  Overall (all failures):
+  │    t=0: 1.000±0.000  t=5: 0.393±0.032  t=10: 0.280±0.010  t=15: 0.237±0.011  t=20: 0.200±0.000  t=25: 0.173±0.021  t=30: 0.133±0.015  t=35: 0.120±0.010  t=40: 0.097±0.015  t=45: 0.083±0.011  t=50: 0.077±0.015  t=55: 0.070±0.010  t=60: 0.063±0.015  t=65: 0.060±0.017  t=70: 0.050±0.010  t=75: 0.047±0.015  t=80: 0.043±0.015  t=85: 0.037±0.021  t=90: 0.030±0.026  t=95: 0.023±0.032  t=100: 0.023±0.032  t=105: 0.023±0.032  t=110: 0.023±0.032  t=115: 0.023±0.032  t=120: 0.020±0.026  t=125: 0.017±0.029  t=130: 0.013±0.023  t=135: 0.010±0.017  t=140: 0.010±0.017  t=145: 0.007±0.011  t=147: 0.003±0.006
+  │  Lane Violation only:
+  │    t=0: 1.000±0.000  t=5: 0.437±0.031  t=10: 0.350±0.017  t=15: 0.313±0.006  t=20: 0.300±0.020  t=25: 0.273±0.038  t=30: 0.250±0.030  t=35: 0.240±0.036  t=40: 0.230±0.053  t=45: 0.227±0.049  t=50: 0.220±0.053  t=55: 0.217±0.049  t=60: 0.217±0.049  t=65: 0.217±0.049  t=70: 0.213±0.046  t=75: 0.210±0.052  t=80: 0.210±0.052  t=85: 0.207±0.058  t=90: 0.207±0.058  t=95: 0.203±0.064  t=100: 0.203±0.064  t=105: 0.203±0.064  t=110: 0.203±0.064  t=115: 0.203±0.064  t=120: 0.200±0.061  t=125: 0.197±0.067  t=130: 0.193±0.064  t=135: 0.190±0.062  t=140: 0.190±0.062  t=145: 0.187±0.061  t=147: 0.183±0.060
+  │  Collision only:
+  │    t=0: 1.000±0.000  t=5: 0.957±0.006  t=10: 0.930±0.020  t=15: 0.923±0.015  t=20: 0.900±0.020  t=25: 0.900±0.020  t=30: 0.883±0.023  t=35: 0.880±0.026  t=40: 0.867±0.038  t=45: 0.857±0.038  t=50: 0.857±0.038  t=55: 0.853±0.040  t=60: 0.847±0.038  t=65: 0.843±0.042  t=70: 0.837±0.038  t=75: 0.837±0.038  t=80: 0.833±0.042  t=85: 0.830±0.046  t=90: 0.823±0.055  t=95: 0.820±0.060
+
+  ┌─ SAFETY MARGIN  (pre-failure steps, critical zone < 0.152 m)
+  │  Mean safety margin   : 2.19 ± 0.38 m
+  │  Mean min margin/ep   : 1.14 ± 0.10 m
+  │  Critical zone %%      : 1.38 ± 0.64 %% of steps
+
+  ┌─ CONTROL SMOOTHNESS  (all steps)
+  │  Mean smoothness      : 0.2142 ± 0.0287
+  │  Mean oscillation freq: 0.5174 ± 0.0196
+  │  Mean jerk            : 0.3815 ± 0.0587
+
+  ──────────────────────────────────────────────────────────────────
+  FAILURE MODE TAXONOMY  (% of failed episodes, mean ± SD across seeds)
+  ──────────────────────────────────────────────────────────────────
+  Type I   Boundary Drift          : 76.58 ± 4.77 %
+  Type II  Abrupt Collision         : 15.05 ± 5.56 %
+  Type III Oscillatory Instability  : 8.37 ± 2.58 %
+
+  Per-seed taxonomy:
+    seed 42  (100 failures):  I=82(82.0%)  II=10(10.0%)  III=8(8.0%)
+    seed 68  (100 failures):  I=73(73.0%)  II=21(21.0%)  III=6(6.0%)
+    seed 101  (99 failures):  I=74(74.7%)  II=14(14.1%)  III=11(11.1%)
+
+  ──────────────────────────────────────────────────────────────────
+  PER-TYPE FEATURE STATISTICS  (pooled across seeds)
+  ──────────────────────────────────────────────────────────────────
+
+  Type I   Boundary Drift  (n=229: 227 LV, 2 collision)
+    Drift slope            : -0.2662 ± 0.4735
+    Monotone drift frac    : 0.3191 ± 0.4154
+    Pre-failure margin(ft) : 1.2327 ± 0.9467
+    Osc frequency (window) : 0.1156 ± 0.1709
+    Mean jerk (window)     : 0.1571 ± 0.2513
+    Episode length (steps) : 9.5415 ± 22.9132
+
+  Type II  Abrupt Collision  (n=45: 0 LV, 45 collision)
+    Drift slope            : -0.0176 ± 0.2880
+    Monotone drift frac    : 0.4333 ± 0.3967
+    Pre-failure margin(ft) : 2.8903 ± 1.4083
+    Osc frequency (window) : 0.2104 ± 0.1901
+    Mean jerk (window)     : 0.1793 ± 0.1700
+    Episode length (steps) : 23.9111 ± 26.4101
+
+  Type III Oscillatory Instability  (n=25: 18 LV, 7 collision)
+    Drift slope            : -0.3095 ± 0.5074
+    Monotone drift frac    : 0.6434 ± 0.2780
+    Pre-failure margin(ft) : 1.8929 ± 1.2324
+    Osc frequency (window) : 0.5840 ± 0.0374
+    Mean jerk (window)     : 0.5885 ± 0.2859
+    Episode length (steps) : 26.8400 ± 29.8813
+
+====================================================================
+
+====================================================================
+  CONDITION: Lane Width = 10 ft  |  Obstacles = 10  |  100 ep/seed × 3 seeds = 300 total episodes
+====================================================================
+
+  ┌─ EPISODE OUTCOMES
+  │  Lane Violation Rate  : 80.33 ± 4.04 %
+  │  Collision Rate       : 19.33 ± 4.51 %
+  │  Success Rate         : 0.33 ± 0.58 %
+  │  Per-seed             : s42: LVR 81% Col 19% Succ 0%  s68: LVR 76% Col 24% Succ 0%  s101: LVR 84% Col 15% Succ 1%
+
+  ┌─ TIME TO FAILURE  (failed episodes only)
+  │  Mean TTF             : 14.72 ± 5.52 steps
+  │  Mean step at LV      : 15.00 ± 6.67 steps
+  │  Mean step at Col     : 14.18 ± 5.83 steps
+
+  ┌─ SURVIVAL PROBABILITY  S(t) = mean ± SD across seeds
+  │  Format: t=step: mean_S(t) ± SD_S(t)  (N=100 ep/seed, 3 seeds)
+  │  Overall (all failures):
+  │    t=0: 1.000±0.000  t=5: 0.357±0.091  t=10: 0.260±0.062  t=15: 0.203±0.046  t=20: 0.170±0.044  t=25: 0.140±0.026  t=30: 0.120±0.036  t=35: 0.100±0.030  t=40: 0.090±0.030  t=45: 0.087±0.031  t=50: 0.077±0.035  t=55: 0.070±0.030  t=60: 0.063±0.025  t=65: 0.060±0.026  t=70: 0.053±0.023  t=75: 0.047±0.021  t=80: 0.047±0.021  t=85: 0.047±0.021  t=90: 0.043±0.023  t=95: 0.040±0.026  t=100: 0.037±0.021  t=105: 0.033±0.025  t=110: 0.033±0.025  t=115: 0.030±0.026  t=120: 0.030±0.026  t=125: 0.030±0.026  t=130: 0.027±0.031  t=135: 0.027±0.031  t=140: 0.027±0.031  t=145: 0.023±0.032  t=150: 0.023±0.032  t=155: 0.023±0.032  t=160: 0.023±0.032  t=165: 0.023±0.032  t=170: 0.023±0.032  t=175: 0.017±0.021  t=180: 0.013±0.015  t=185: 0.013±0.015  t=190: 0.013±0.015  t=195: 0.010±0.010  t=198: 0.003±0.006
+  │  Lane Violation only:
+  │    t=0: 1.000±0.000  t=5: 0.440±0.069  t=10: 0.367±0.068  t=15: 0.330±0.056  t=20: 0.303±0.060  t=25: 0.293±0.055  t=30: 0.287±0.060  t=35: 0.277±0.067  t=40: 0.267±0.067  t=45: 0.267±0.067  t=50: 0.260±0.075  t=55: 0.253±0.071  t=60: 0.250±0.066  t=65: 0.250±0.066  t=70: 0.247±0.067  t=75: 0.240±0.066  t=80: 0.240±0.066  t=85: 0.240±0.066  t=90: 0.237±0.067  t=95: 0.233±0.068  t=100: 0.230±0.062  t=105: 0.227±0.064  t=110: 0.227±0.064  t=115: 0.223±0.068  t=120: 0.223±0.068  t=125: 0.223±0.068  t=130: 0.220±0.070  t=135: 0.220±0.070  t=140: 0.220±0.070  t=145: 0.217±0.074  t=150: 0.217±0.074  t=155: 0.217±0.074  t=160: 0.217±0.074  t=165: 0.217±0.074  t=170: 0.217±0.074  t=175: 0.210±0.062  t=180: 0.207±0.057  t=185: 0.207±0.057  t=190: 0.207±0.057  t=195: 0.203±0.051  t=198: 0.197±0.040
+  │  Collision only:
+  │    t=0: 1.000±0.000  t=5: 0.917±0.038  t=10: 0.893±0.031  t=15: 0.873±0.021  t=20: 0.867±0.032  t=25: 0.847±0.040  t=30: 0.833±0.047  t=35: 0.823±0.038  t=40: 0.823±0.038  t=45: 0.820±0.036  t=50: 0.817±0.042  t=55: 0.817±0.042  t=60: 0.813±0.040  t=65: 0.810±0.040  t=69: 0.807±0.045
+
+  ┌─ SAFETY MARGIN  (pre-failure steps, critical zone < 0.152 m)
+  │  Mean safety margin   : 2.16 ± 0.33 m
+  │  Mean min margin/ep   : 1.14 ± 0.12 m
+  │  Critical zone %%      : 1.17 ± 0.70 %% of steps
+
+  ┌─ CONTROL SMOOTHNESS  (all steps)
+  │  Mean smoothness      : 0.2092 ± 0.0372
+  │  Mean oscillation freq: 0.4884 ± 0.0378
+  │  Mean jerk            : 0.3381 ± 0.0799
+
+  ──────────────────────────────────────────────────────────────────
+  FAILURE MODE TAXONOMY  (% of failed episodes, mean ± SD across seeds)
+  ──────────────────────────────────────────────────────────────────
+  Type I   Boundary Drift          : 77.60 ± 3.14 %
+  Type II  Abrupt Collision         : 17.05 ± 4.31 %
+  Type III Oscillatory Instability  : 5.35 ± 1.17 %
+
+  Per-seed taxonomy:
+    seed 42  (100 failures):  I=79(79.0%)  II=15(15.0%)  III=6(6.0%)
+    seed 68  (100 failures):  I=74(74.0%)  II=22(22.0%)  III=4(4.0%)
+    seed 101  (99 failures):  I=79(79.8%)  II=14(14.1%)  III=6(6.1%)
+
+  ──────────────────────────────────────────────────────────────────
+  PER-TYPE FEATURE STATISTICS  (pooled across seeds)
+  ──────────────────────────────────────────────────────────────────
+
+  Type I   Boundary Drift  (n=232: 230 LV, 2 collision)
+    Drift slope            : -0.2296 ± 0.4970
+    Monotone drift frac    : 0.3096 ± 0.4042
+    Pre-failure margin(ft) : 1.1759 ± 0.9745
+    Osc frequency (window) : 0.0970 ± 0.1527
+    Mean jerk (window)     : 0.1378 ± 0.2209
+    Episode length (steps) : 13.8534 ± 34.7511
+
+  Type II  Abrupt Collision  (n=51: 0 LV, 51 collision)
+    Drift slope            : 0.0108 ± 0.2504
+    Monotone drift frac    : 0.3006 ± 0.3500
+    Pre-failure margin(ft) : 2.7164 ± 1.6981
+    Osc frequency (window) : 0.1670 ± 0.1867
+    Mean jerk (window)     : 0.1685 ± 0.2235
+    Episode length (steps) : 11.9020 ± 15.2489
+
+  Type III Oscillatory Instability  (n=16: 11 LV, 5 collision)
+    Drift slope            : -0.1976 ± 0.5609
+    Monotone drift frac    : 0.6250 ± 0.2806
+    Pre-failure margin(ft) : 2.2957 ± 1.3367
+    Osc frequency (window) : 0.5812 ± 0.0403
+    Mean jerk (window)     : 0.4844 ± 0.2130
+    Episode length (steps) : 18.0000 ± 30.0488
+
+====================================================================
+
+====================================================================
+  CONDITION: Lane Width = 11 ft  |  Obstacles = 4  |  100 ep/seed × 3 seeds = 300 total episodes
+====================================================================
+
+  ┌─ EPISODE OUTCOMES
+  │  Lane Violation Rate  : 95.67 ± 0.58 %
+  │  Collision Rate       : 3.33 ± 1.15 %
+  │  Success Rate         : 1.00 ± 1.00 %
+  │  Per-seed             : s42: LVR 96% Col 2% Succ 2%  s68: LVR 96% Col 4% Succ 0%  s101: LVR 95% Col 4% Succ 1%
+
+  ┌─ TIME TO FAILURE  (failed episodes only)
+  │  Mean TTF             : 19.18 ± 4.95 steps
+  │  Mean step at LV      : 19.45 ± 5.20 steps
+  │  Mean step at Col     : 11.08 ± 11.19 steps
+
+  ┌─ SURVIVAL PROBABILITY  S(t) = mean ± SD across seeds
+  │  Format: t=step: mean_S(t) ± SD_S(t)  (N=100 ep/seed, 3 seeds)
+  │  Overall (all failures):
+  │    t=0: 1.000±0.000  t=5: 0.437±0.040  t=10: 0.320±0.026  t=15: 0.273±0.006  t=20: 0.250±0.020  t=25: 0.207±0.038  t=30: 0.193±0.051  t=35: 0.173±0.045  t=40: 0.153±0.038  t=45: 0.140±0.035  t=50: 0.130±0.044  t=55: 0.117±0.035  t=60: 0.110±0.030  t=65: 0.103±0.040  t=70: 0.100±0.036  t=75: 0.093±0.031  t=80: 0.083±0.031  t=85: 0.077±0.023  t=90: 0.067±0.023  t=95: 0.067±0.023  t=100: 0.063±0.021  t=105: 0.060±0.020  t=110: 0.057±0.021  t=115: 0.047±0.021  t=120: 0.040±0.020  t=125: 0.040±0.020  t=130: 0.037±0.021  t=135: 0.023±0.015  t=140: 0.020±0.010  t=145: 0.020±0.010  t=150: 0.020±0.010  t=155: 0.017±0.006  t=160: 0.017±0.006  t=165: 0.017±0.006  t=170: 0.017±0.006  t=175: 0.017±0.006  t=180: 0.017±0.006  t=185: 0.017±0.006  t=190: 0.017±0.006  t=195: 0.017±0.006  t=200: 0.010±0.010
+  │  Lane Violation only:
+  │    t=0: 1.000±0.000  t=5: 0.450±0.044  t=10: 0.347±0.032  t=15: 0.300±0.010  t=20: 0.277±0.023  t=25: 0.233±0.035  t=30: 0.220±0.050  t=35: 0.200±0.046  t=40: 0.183±0.046  t=45: 0.170±0.044  t=50: 0.163±0.055  t=55: 0.150±0.046  t=60: 0.143±0.040  t=65: 0.137±0.051  t=70: 0.133±0.047  t=75: 0.127±0.042  t=80: 0.117±0.042  t=85: 0.110±0.035  t=90: 0.100±0.035  t=95: 0.100±0.035  t=100: 0.097±0.032  t=105: 0.093±0.031  t=110: 0.090±0.030  t=115: 0.080±0.026  t=120: 0.073±0.023  t=125: 0.073±0.023  t=130: 0.070±0.026  t=135: 0.057±0.021  t=140: 0.053±0.015  t=145: 0.053±0.015  t=150: 0.053±0.015  t=155: 0.050±0.010  t=160: 0.050±0.010  t=165: 0.050±0.010  t=170: 0.050±0.010  t=175: 0.050±0.010  t=180: 0.050±0.010  t=185: 0.050±0.010  t=190: 0.050±0.010  t=195: 0.050±0.010  t=200: 0.043±0.006
+  │  Collision only:
+  │    t=0: 1.000±0.000  t=5: 0.987±0.006  t=10: 0.973±0.011  t=15: 0.973±0.011  t=20: 0.973±0.011  t=25: 0.973±0.011  t=30: 0.973±0.011  t=35: 0.973±0.011  t=40: 0.970±0.010  t=45: 0.970±0.010  t=48: 0.967±0.011
+
+  ┌─ SAFETY MARGIN  (pre-failure steps, critical zone < 0.168 m)
+  │  Mean safety margin   : 2.31 ± 0.04 m
+  │  Mean min margin/ep   : 1.15 ± 0.08 m
+  │  Critical zone %%      : 1.29 ± 0.15 %% of steps
+
+  ┌─ CONTROL SMOOTHNESS  (all steps)
+  │  Mean smoothness      : 0.2079 ± 0.0092
+  │  Mean oscillation freq: 0.5002 ± 0.0196
+  │  Mean jerk            : 0.4167 ± 0.0310
+
+  ──────────────────────────────────────────────────────────────────
+  FAILURE MODE TAXONOMY  (% of failed episodes, mean ± SD across seeds)
+  ──────────────────────────────────────────────────────────────────
+  Type I   Boundary Drift          : 89.56 ± 0.59 %
+  Type II  Abrupt Collision         : 3.36 ± 1.14 %
+  Type III Oscillatory Instability  : 7.08 ± 1.08 %
+
+  Per-seed taxonomy:
+    seed 42  (98 failures):  I=88(89.8%)  II=2(2.0%)  III=8(8.2%)
+    seed 68  (100 failures):  I=90(90.0%)  II=4(4.0%)  III=6(6.0%)
+    seed 101  (99 failures):  I=88(88.9%)  II=4(4.0%)  III=7(7.1%)
+
+  ──────────────────────────────────────────────────────────────────
+  PER-TYPE FEATURE STATISTICS  (pooled across seeds)
+  ──────────────────────────────────────────────────────────────────
+
+  Type I   Boundary Drift  (n=266: 266 LV, 0 collision)
+    Drift slope            : -0.3359 ± 0.5585
+    Monotone drift frac    : 0.3932 ± 0.4190
+    Pre-failure margin(ft) : 1.5011 ± 1.0777
+    Osc frequency (window) : 0.1512 ± 0.1794
+    Mean jerk (window)     : 0.2174 ± 0.2860
+    Episode length (steps) : 17.2180 ± 33.8212
+
+  Type II  Abrupt Collision  (n=10: 0 LV, 10 collision)
+    Drift slope            : -0.0421 ± 0.1797
+    Monotone drift frac    : 0.3500 ± 0.3944
+    Pre-failure margin(ft) : 2.4621 ± 1.8001
+    Osc frequency (window) : 0.1400 ± 0.1647
+    Mean jerk (window)     : 0.1102 ± 0.1159
+    Episode length (steps) : 11.4000 ± 16.8140
+
+  Type III Oscillatory Instability  (n=21: 21 LV, 0 collision)
+    Drift slope            : -0.6289 ± 0.5886
+    Monotone drift frac    : 0.7619 ± 0.2490
+    Pre-failure margin(ft) : 1.3776 ± 0.8141
+    Osc frequency (window) : 0.5762 ± 0.0436
+    Mean jerk (window)     : 0.4690 ± 0.2806
+    Episode length (steps) : 34.0000 ± 38.3262
+
+====================================================================
+
+====================================================================
+  CONDITION: Lane Width = 11 ft  |  Obstacles = 6  |  100 ep/seed × 3 seeds = 300 total episodes
+====================================================================
+
+  ┌─ EPISODE OUTCOMES
+  │  Lane Violation Rate  : 84.67 ± 2.89 %
+  │  Collision Rate       : 13.00 ± 1.00 %
+  │  Success Rate         : 2.33 ± 2.08 %
+  │  Per-seed             : s42: LVR 83% Col 13% Succ 4%  s68: LVR 88% Col 12% Succ 0%  s101: LVR 83% Col 14% Succ 3%
+
+  ┌─ TIME TO FAILURE  (failed episodes only)
+  │  Mean TTF             : 18.01 ± 7.19 steps
+  │  Mean step at LV      : 13.08 ± 2.36 steps
+  │  Mean step at Col     : 52.51 ± 45.44 steps
+
+  ┌─ SURVIVAL PROBABILITY  S(t) = mean ± SD across seeds
+  │  Format: t=step: mean_S(t) ± SD_S(t)  (N=100 ep/seed, 3 seeds)
+  │  Overall (all failures):
+  │    t=0: 1.000±0.000  t=5: 0.437±0.078  t=10: 0.320±0.062  t=15: 0.260±0.056  t=20: 0.223±0.045  t=25: 0.197±0.040  t=30: 0.180±0.046  t=35: 0.167±0.045  t=40: 0.147±0.040  t=45: 0.140±0.036  t=50: 0.130±0.036  t=55: 0.117±0.031  t=60: 0.113±0.025  t=65: 0.110±0.026  t=70: 0.103±0.025  t=75: 0.090±0.010  t=80: 0.087±0.006  t=85: 0.080±0.010  t=90: 0.080±0.010  t=95: 0.073±0.006  t=100: 0.070±0.010  t=105: 0.067±0.006  t=110: 0.060±0.010  t=115: 0.060±0.010  t=120: 0.050±0.010  t=125: 0.050±0.010  t=130: 0.050±0.010  t=135: 0.047±0.015  t=140: 0.047±0.015  t=145: 0.047±0.015  t=150: 0.047±0.015  t=155: 0.043±0.015  t=160: 0.043±0.015  t=165: 0.043±0.015  t=170: 0.037±0.006  t=175: 0.033±0.006  t=180: 0.033±0.006  t=185: 0.033±0.006  t=189: 0.023±0.021
+  │  Lane Violation only:
+  │    t=0: 1.000±0.000  t=5: 0.470±0.061  t=10: 0.370±0.053  t=15: 0.333±0.038  t=20: 0.300±0.026  t=25: 0.277±0.015  t=30: 0.260±0.017  t=35: 0.247±0.025  t=40: 0.227±0.015  t=45: 0.220±0.010  t=50: 0.213±0.006  t=55: 0.207±0.015  t=60: 0.203±0.021  t=65: 0.200±0.017  t=70: 0.193±0.021  t=75: 0.187±0.023  t=80: 0.183±0.029  t=85: 0.180±0.026  t=90: 0.180±0.026  t=95: 0.173±0.029  t=100: 0.170±0.026  t=105: 0.167±0.032  t=110: 0.167±0.032  t=115: 0.167±0.032  t=120: 0.160±0.035  t=125: 0.160±0.035  t=130: 0.160±0.035  t=135: 0.157±0.032  t=140: 0.157±0.032  t=145: 0.157±0.032  t=150: 0.157±0.032  t=151: 0.153±0.029
+  │  Collision only:
+  │    t=0: 1.000±0.000  t=5: 0.967±0.021  t=10: 0.950±0.026  t=15: 0.927±0.029  t=20: 0.923±0.032  t=25: 0.920±0.035  t=30: 0.920±0.035  t=35: 0.920±0.035  t=40: 0.920±0.035  t=45: 0.920±0.035  t=50: 0.917±0.038  t=55: 0.910±0.044  t=60: 0.910±0.044  t=65: 0.910±0.044  t=70: 0.910±0.044  t=75: 0.903±0.032  t=80: 0.903±0.032  t=85: 0.900±0.035  t=90: 0.900±0.035  t=95: 0.900±0.035  t=100: 0.900±0.035  t=105: 0.900±0.035  t=110: 0.893±0.040  t=115: 0.893±0.040  t=120: 0.890±0.044  t=125: 0.890±0.044  t=130: 0.890±0.044  t=135: 0.890±0.044  t=140: 0.890±0.044  t=145: 0.890±0.044  t=150: 0.890±0.044  t=155: 0.890±0.044  t=160: 0.890±0.044  t=165: 0.890±0.044  t=170: 0.883±0.032  t=175: 0.880±0.026  t=180: 0.880±0.026  t=185: 0.880±0.026  t=189: 0.870±0.010
+
+  ┌─ SAFETY MARGIN  (pre-failure steps, critical zone < 0.168 m)
+  │  Mean safety margin   : 2.19 ± 0.20 m
+  │  Mean min margin/ep   : 1.16 ± 0.13 m
+  │  Critical zone %%      : 1.64 ± 0.40 %% of steps
+
+  ┌─ CONTROL SMOOTHNESS  (all steps)
+  │  Mean smoothness      : 0.1780 ± 0.0146
+  │  Mean oscillation freq: 0.4879 ± 0.0079
+  │  Mean jerk            : 0.4101 ± 0.0373
+
+  ──────────────────────────────────────────────────────────────────
+  FAILURE MODE TAXONOMY  (% of failed episodes, mean ± SD across seeds)
+  ──────────────────────────────────────────────────────────────────
+  Type I   Boundary Drift          : 78.82 ± 3.11 %
+  Type II  Abrupt Collision         : 12.98 ± 0.85 %
+  Type III Oscillatory Instability  : 8.20 ± 2.75 %
+
+  Per-seed taxonomy:
+    seed 42  (96 failures):  I=77(80.2%)  II=13(13.5%)  III=6(6.2%)
+    seed 68  (100 failures):  I=81(81.0%)  II=12(12.0%)  III=7(7.0%)
+    seed 101  (97 failures):  I=73(75.3%)  II=13(13.4%)  III=11(11.3%)
+
+  ──────────────────────────────────────────────────────────────────
+  PER-TYPE FEATURE STATISTICS  (pooled across seeds)
+  ──────────────────────────────────────────────────────────────────
+
+  Type I   Boundary Drift  (n=231: 231 LV, 0 collision)
+    Drift slope            : -0.3072 ± 0.5469
+    Monotone drift frac    : 0.3434 ± 0.4077
+    Pre-failure margin(ft) : 1.3716 ± 1.0951
+    Osc frequency (window) : 0.1248 ± 0.1681
+    Mean jerk (window)     : 0.1912 ± 0.2789
+    Episode length (steps) : 10.8961 ± 22.7970
+
+  Type II  Abrupt Collision  (n=38: 0 LV, 38 collision)
+    Drift slope            : 0.0217 ± 0.2535
+    Monotone drift frac    : 0.3224 ± 0.3283
+    Pre-failure margin(ft) : 3.9381 ± 1.7258
+    Osc frequency (window) : 0.2211 ± 0.1663
+    Mean jerk (window)     : 0.2383 ± 0.2270
+    Episode length (steps) : 50.7895 ± 64.9291
+
+  Type III Oscillatory Instability  (n=24: 23 LV, 1 collision)
+    Drift slope            : -0.4563 ± 0.6676
+    Monotone drift frac    : 0.7535 ± 0.2892
+    Pre-failure margin(ft) : 1.7279 ± 1.2014
+    Osc frequency (window) : 0.5875 ± 0.0338
+    Mean jerk (window)     : 0.4777 ± 0.2081
+    Episode length (steps) : 23.6250 ± 30.7073
+
+====================================================================
+
+====================================================================
+  CONDITION: Lane Width = 11 ft  |  Obstacles = 8  |  100 ep/seed × 3 seeds = 300 total episodes
+====================================================================
+
+  ┌─ EPISODE OUTCOMES
+  │  Lane Violation Rate  : 82.33 ± 6.11 %
+  │  Collision Rate       : 17.33 ± 6.03 %
+  │  Success Rate         : 0.33 ± 0.58 %
+  │  Per-seed             : s42: LVR 89% Col 11% Succ 0%  s68: LVR 77% Col 23% Succ 0%  s101: LVR 81% Col 18% Succ 1%
+
+  ┌─ TIME TO FAILURE  (failed episodes only)
+  │  Mean TTF             : 15.54 ± 2.10 steps
+  │  Mean step at LV      : 13.35 ± 5.26 steps
+  │  Mean step at Col     : 22.75 ± 12.15 steps
+
+  ┌─ SURVIVAL PROBABILITY  S(t) = mean ± SD across seeds
+  │  Format: t=step: mean_S(t) ± SD_S(t)  (N=100 ep/seed, 3 seeds)
+  │  Overall (all failures):
+  │    t=0: 1.000±0.000  t=5: 0.413±0.031  t=10: 0.293±0.006  t=15: 0.257±0.011  t=20: 0.213±0.011  t=25: 0.197±0.023  t=30: 0.143±0.035  t=35: 0.137±0.031  t=40: 0.113±0.031  t=45: 0.097±0.025  t=50: 0.087±0.015  t=55: 0.077±0.015  t=60: 0.073±0.015  t=65: 0.067±0.021  t=70: 0.063±0.015  t=75: 0.053±0.025  t=80: 0.050±0.026  t=85: 0.047±0.029  t=90: 0.037±0.031  t=95: 0.030±0.036  t=100: 0.030±0.036  t=105: 0.030±0.036  t=110: 0.030±0.036  t=115: 0.027±0.031  t=120: 0.023±0.025  t=125: 0.020±0.026  t=130: 0.017±0.021  t=135: 0.013±0.015  t=140: 0.010±0.010  t=145: 0.010±0.010  t=150: 0.003±0.006
+  │  Lane Violation only:
+  │    t=0: 1.000±0.000  t=5: 0.460±0.026  t=10: 0.373±0.021  t=15: 0.340±0.010  t=20: 0.317±0.025  t=25: 0.300±0.036  t=30: 0.263±0.050  t=35: 0.260±0.050  t=40: 0.247±0.061  t=45: 0.240±0.056  t=50: 0.233±0.050  t=55: 0.227±0.051  t=60: 0.223±0.050  t=65: 0.223±0.050  t=70: 0.220±0.046  t=75: 0.210±0.062  t=80: 0.210±0.062  t=85: 0.210±0.062  t=90: 0.207±0.059  t=95: 0.203±0.064  t=100: 0.203±0.064  t=105: 0.203±0.064  t=110: 0.203±0.064  t=115: 0.200±0.061  t=120: 0.197±0.058  t=125: 0.193±0.064  t=130: 0.190±0.061  t=135: 0.187±0.059  t=140: 0.183±0.057  t=145: 0.183±0.057  t=150: 0.177±0.061
+  │  Collision only:
+  │    t=0: 1.000±0.000  t=5: 0.953±0.006  t=10: 0.920±0.026  t=15: 0.917±0.021  t=20: 0.897±0.015  t=25: 0.897±0.015  t=30: 0.880±0.017  t=35: 0.877±0.021  t=40: 0.867±0.031  t=45: 0.857±0.031  t=50: 0.853±0.035  t=55: 0.850±0.036  t=60: 0.850±0.036  t=65: 0.843±0.040  t=70: 0.843±0.040  t=75: 0.843±0.040  t=80: 0.840±0.044  t=85: 0.837±0.047  t=90: 0.830±0.056  t=95: 0.827±0.060
+
+  ┌─ SAFETY MARGIN  (pre-failure steps, critical zone < 0.168 m)
+  │  Mean safety margin   : 2.41 ± 0.33 m
+  │  Mean min margin/ep   : 1.27 ± 0.09 m
+  │  Critical zone %%      : 0.92 ± 0.23 %% of steps
+
+  ┌─ CONTROL SMOOTHNESS  (all steps)
+  │  Mean smoothness      : 0.2207 ± 0.0326
+  │  Mean oscillation freq: 0.5165 ± 0.0316
+  │  Mean jerk            : 0.3810 ± 0.0326
+
+  ──────────────────────────────────────────────────────────────────
+  FAILURE MODE TAXONOMY  (% of failed episodes, mean ± SD across seeds)
+  ──────────────────────────────────────────────────────────────────
+  Type I   Boundary Drift          : 77.26 ± 7.62 %
+  Type II  Abrupt Collision         : 16.39 ± 5.05 %
+  Type III Oscillatory Instability  : 6.35 ± 3.20 %
+
+  Per-seed taxonomy:
+    seed 42  (100 failures):  I=84(84.0%)  II=11(11.0%)  III=5(5.0%)
+    seed 68  (100 failures):  I=69(69.0%)  II=21(21.0%)  III=10(10.0%)
+    seed 101  (99 failures):  I=78(78.8%)  II=17(17.2%)  III=4(4.0%)
+
+  ──────────────────────────────────────────────────────────────────
+  PER-TYPE FEATURE STATISTICS  (pooled across seeds)
+  ──────────────────────────────────────────────────────────────────
+
+  Type I   Boundary Drift  (n=231: 230 LV, 1 collision)
+    Drift slope            : -0.3346 ± 0.5572
+    Monotone drift frac    : 0.3640 ± 0.4346
+    Pre-failure margin(ft) : 1.3979 ± 1.0278
+    Osc frequency (window) : 0.1320 ± 0.1752
+    Mean jerk (window)     : 0.1799 ± 0.2713
+    Episode length (steps) : 12.9307 ± 27.8036
+
+  Type II  Abrupt Collision  (n=49: 0 LV, 49 collision)
+    Drift slope            : -0.0553 ± 0.3128
+    Monotone drift frac    : 0.4898 ± 0.3714
+    Pre-failure margin(ft) : 3.3396 ± 1.5041
+    Osc frequency (window) : 0.2367 ± 0.1748
+    Mean jerk (window)     : 0.2185 ± 0.2172
+    Episode length (steps) : 23.3265 ± 25.5289
+
+  Type III Oscillatory Instability  (n=19: 17 LV, 2 collision)
+    Drift slope            : -0.4695 ± 0.7783
+    Monotone drift frac    : 0.6754 ± 0.3684
+    Pre-failure margin(ft) : 1.9095 ± 1.3787
+    Osc frequency (window) : 0.5737 ± 0.0452
+    Mean jerk (window)     : 0.5314 ± 0.2944
+    Episode length (steps) : 11.3158 ± 9.5513
+
+====================================================================
+
+====================================================================
+  CONDITION: Lane Width = 11 ft  |  Obstacles = 10  |  100 ep/seed × 3 seeds = 300 total episodes
+====================================================================
+
+  ┌─ EPISODE OUTCOMES
+  │  Lane Violation Rate  : 81.67 ± 3.21 %
+  │  Collision Rate       : 18.00 ± 3.61 %
+  │  Success Rate         : 0.33 ± 0.58 %
+  │  Per-seed             : s42: LVR 83% Col 17% Succ 0%  s68: LVR 78% Col 22% Succ 0%  s101: LVR 84% Col 15% Succ 1%
+
+  ┌─ TIME TO FAILURE  (failed episodes only)
+  │  Mean TTF             : 15.40 ± 5.68 steps
+  │  Mean step at LV      : 16.08 ± 7.30 steps
+  │  Mean step at Col     : 13.34 ± 6.80 steps
+
+  ┌─ SURVIVAL PROBABILITY  S(t) = mean ± SD across seeds
+  │  Format: t=step: mean_S(t) ± SD_S(t)  (N=100 ep/seed, 3 seeds)
+  │  Overall (all failures):
+  │    t=0: 1.000±0.000  t=5: 0.390±0.089  t=10: 0.270±0.072  t=15: 0.207±0.058  t=20: 0.187±0.051  t=25: 0.157±0.035  t=30: 0.133±0.038  t=35: 0.113±0.031  t=40: 0.100±0.026  t=45: 0.090±0.030  t=50: 0.087±0.035  t=55: 0.073±0.031  t=60: 0.070±0.026  t=65: 0.063±0.025  t=70: 0.060±0.026  t=75: 0.057±0.031  t=80: 0.050±0.026  t=85: 0.050±0.026  t=90: 0.047±0.029  t=95: 0.033±0.035  t=100: 0.030±0.030  t=105: 0.030±0.030  t=110: 0.030±0.030  t=115: 0.027±0.031  t=120: 0.027±0.031  t=125: 0.027±0.031  t=130: 0.027±0.031  t=135: 0.027±0.031  t=140: 0.027±0.031  t=145: 0.023±0.032  t=150: 0.023±0.032  t=155: 0.023±0.032  t=160: 0.023±0.032  t=165: 0.023±0.032  t=170: 0.023±0.032  t=175: 0.017±0.021  t=180: 0.013±0.015  t=185: 0.013±0.015  t=190: 0.013±0.015  t=195: 0.007±0.006  t=197: 0.003±0.006
+  │  Lane Violation only:
+  │    t=0: 1.000±0.000  t=5: 0.473±0.074  t=10: 0.377±0.076  t=15: 0.337±0.071  t=20: 0.320±0.062  t=25: 0.303±0.050  t=30: 0.290±0.056  t=35: 0.280±0.062  t=40: 0.270±0.062  t=45: 0.263±0.068  t=50: 0.260±0.072  t=55: 0.247±0.067  t=60: 0.243±0.061  t=65: 0.240±0.062  t=70: 0.237±0.064  t=75: 0.233±0.068  t=80: 0.227±0.064  t=85: 0.227±0.064  t=90: 0.223±0.067  t=95: 0.213±0.067  t=100: 0.210±0.061  t=105: 0.210±0.061  t=110: 0.210±0.061  t=115: 0.207±0.064  t=120: 0.207±0.064  t=125: 0.207±0.064  t=130: 0.207±0.064  t=135: 0.207±0.064  t=140: 0.207±0.064  t=145: 0.203±0.067  t=150: 0.203±0.067  t=155: 0.203±0.067  t=160: 0.203±0.067  t=165: 0.203±0.067  t=170: 0.203±0.067  t=175: 0.197±0.055  t=180: 0.193±0.049  t=185: 0.193±0.049  t=190: 0.193±0.049  t=195: 0.187±0.038  t=197: 0.183±0.032
+  │  Collision only:
+  │    t=0: 1.000±0.000  t=5: 0.917±0.038  t=10: 0.893±0.031  t=15: 0.870±0.026  t=20: 0.867±0.032  t=25: 0.853±0.038  t=30: 0.843±0.040  t=35: 0.833±0.038  t=40: 0.830±0.044  t=45: 0.827±0.040  t=50: 0.827±0.040  t=55: 0.827±0.040  t=60: 0.827±0.040  t=65: 0.823±0.038  t=70: 0.823±0.038  t=75: 0.823±0.038  t=80: 0.823±0.038  t=85: 0.823±0.038  t=90: 0.823±0.038  t=94: 0.820±0.036
+
+  ┌─ SAFETY MARGIN  (pre-failure steps, critical zone < 0.168 m)
+  │  Mean safety margin   : 2.39 ± 0.33 m
+  │  Mean min margin/ep   : 1.27 ± 0.12 m
+  │  Critical zone %%      : 1.05 ± 0.54 %% of steps
+
+  ┌─ CONTROL SMOOTHNESS  (all steps)
+  │  Mean smoothness      : 0.2195 ± 0.0348
+  │  Mean oscillation freq: 0.5089 ± 0.0310
+  │  Mean jerk            : 0.4079 ± 0.0342
+
+  ──────────────────────────────────────────────────────────────────
+  FAILURE MODE TAXONOMY  (% of failed episodes, mean ± SD across seeds)
+  ──────────────────────────────────────────────────────────────────
+  Type I   Boundary Drift          : 77.27 ± 3.41 %
+  Type II  Abrupt Collision         : 16.38 ± 3.16 %
+  Type III Oscillatory Instability  : 6.35 ± 1.51 %
+
+  Per-seed taxonomy:
+    seed 42  (100 failures):  I=77(77.0%)  II=15(15.0%)  III=8(8.0%)
+    seed 68  (100 failures):  I=74(74.0%)  II=20(20.0%)  III=6(6.0%)
+    seed 101  (99 failures):  I=80(80.8%)  II=14(14.1%)  III=5(5.1%)
+
+  ──────────────────────────────────────────────────────────────────
+  PER-TYPE FEATURE STATISTICS  (pooled across seeds)
+  ──────────────────────────────────────────────────────────────────
+
+  Type I   Boundary Drift  (n=231: 231 LV, 0 collision)
+    Drift slope            : -0.2804 ± 0.5505
+    Monotone drift frac    : 0.3254 ± 0.4052
+    Pre-failure margin(ft) : 1.2983 ± 1.0260
+    Osc frequency (window) : 0.1185 ± 0.1671
+    Mean jerk (window)     : 0.1812 ± 0.2709
+    Episode length (steps) : 15.0952 ± 35.2709
+
+  Type II  Abrupt Collision  (n=49: 0 LV, 49 collision)
+    Drift slope            : 0.0240 ± 0.2374
+    Monotone drift frac    : 0.2721 ± 0.3604
+    Pre-failure margin(ft) : 3.2037 ± 1.8536
+    Osc frequency (window) : 0.1683 ± 0.1736
+    Mean jerk (window)     : 0.2443 ± 0.2926
+    Episode length (steps) : 11.3061 ± 17.7262
+
+  Type III Oscillatory Instability  (n=19: 14 LV, 5 collision)
+    Drift slope            : -0.2717 ± 0.5449
+    Monotone drift frac    : 0.6316 ± 0.2983
+    Pre-failure margin(ft) : 2.1058 ± 1.3319
+    Osc frequency (window) : 0.5842 ± 0.0375
+    Mean jerk (window)     : 0.3942 ± 0.2068
+    Episode length (steps) : 14.2105 ± 11.4046
+
+====================================================================
+
+====================================================================
+  CONDITION: Lane Width = 12 ft  |  Obstacles = 4  |  100 ep/seed × 3 seeds = 300 total episodes
+====================================================================
+
+  ┌─ EPISODE OUTCOMES
+  │  Lane Violation Rate  : 95.67 ± 1.15 %
+  │  Collision Rate       : 3.00 ± 1.00 %
+  │  Success Rate         : 1.33 ± 0.58 %
+  │  Per-seed             : s42: LVR 95% Col 3% Succ 2%  s68: LVR 95% Col 4% Succ 1%  s101: LVR 97% Col 2% Succ 1%
+
+  ┌─ TIME TO FAILURE  (failed episodes only)
+  │  Mean TTF             : 19.21 ± 3.21 steps
+  │  Mean step at LV      : 19.60 ± 3.37 steps
+  │  Mean step at Col     : 6.56 ± 1.78 steps
+
+  ┌─ SURVIVAL PROBABILITY  S(t) = mean ± SD across seeds
+  │  Format: t=step: mean_S(t) ± SD_S(t)  (N=100 ep/seed, 3 seeds)
+  │  Overall (all failures):
+  │    t=0: 1.000±0.000  t=5: 0.453±0.031  t=10: 0.333±0.021  t=15: 0.283±0.006  t=20: 0.250±0.017  t=25: 0.213±0.031  t=30: 0.197±0.038  t=35: 0.177±0.029  t=40: 0.160±0.020  t=45: 0.150±0.017  t=50: 0.137±0.032  t=55: 0.123±0.025  t=60: 0.120±0.026  t=65: 0.110±0.030  t=70: 0.103±0.031  t=75: 0.093±0.031  t=80: 0.083±0.031  t=85: 0.077±0.023  t=90: 0.067±0.023  t=95: 0.067±0.023  t=100: 0.063±0.021  t=105: 0.060±0.020  t=110: 0.057±0.021  t=115: 0.047±0.021  t=120: 0.040±0.020  t=125: 0.040±0.020  t=130: 0.037±0.021  t=135: 0.023±0.015  t=140: 0.020±0.010  t=145: 0.020±0.010  t=150: 0.020±0.010  t=155: 0.017±0.006  t=160: 0.017±0.006  t=165: 0.017±0.006  t=170: 0.017±0.006  t=175: 0.017±0.006  t=180: 0.017±0.006  t=185: 0.017±0.006  t=190: 0.017±0.006  t=195: 0.017±0.006  t=200: 0.013±0.006
+  │  Lane Violation only:
+  │    t=0: 1.000±0.000  t=5: 0.467±0.035  t=10: 0.357±0.025  t=15: 0.310±0.010  t=20: 0.280±0.010  t=25: 0.243±0.021  t=30: 0.227±0.029  t=35: 0.207±0.021  t=40: 0.190±0.017  t=45: 0.180±0.020  t=50: 0.167±0.035  t=55: 0.153±0.032  t=60: 0.150±0.035  t=65: 0.140±0.036  t=70: 0.133±0.035  t=75: 0.123±0.035  t=80: 0.113±0.035  t=85: 0.107±0.025  t=90: 0.097±0.025  t=95: 0.097±0.025  t=100: 0.093±0.025  t=105: 0.090±0.026  t=110: 0.087±0.029  t=115: 0.077±0.031  t=120: 0.070±0.030  t=125: 0.070±0.030  t=130: 0.067±0.031  t=135: 0.053±0.025  t=140: 0.050±0.020  t=145: 0.050±0.020  t=150: 0.050±0.020  t=155: 0.047±0.015  t=160: 0.047±0.015  t=165: 0.047±0.015  t=170: 0.047±0.015  t=175: 0.047±0.015  t=180: 0.047±0.015  t=185: 0.047±0.015  t=190: 0.047±0.015  t=195: 0.047±0.015  t=200: 0.043±0.011
+  │  Collision only:
+  │    t=0: 1.000±0.000  t=5: 0.987±0.006  t=10: 0.977±0.006  t=15: 0.973±0.006  t=18: 0.970±0.010
+
+  ┌─ SAFETY MARGIN  (pre-failure steps, critical zone < 0.183 m)
+  │  Mean safety margin   : 2.55 ± 0.12 m
+  │  Mean min margin/ep   : 1.19 ± 0.12 m
+  │  Critical zone %%      : 1.12 ± 0.20 %% of steps
+
+  ┌─ CONTROL SMOOTHNESS  (all steps)
+  │  Mean smoothness      : 0.2164 ± 0.0054
+  │  Mean oscillation freq: 0.5031 ± 0.0029
+  │  Mean jerk            : 0.4052 ± 0.0411
+
+  ──────────────────────────────────────────────────────────────────
+  FAILURE MODE TAXONOMY  (% of failed episodes, mean ± SD across seeds)
+  ──────────────────────────────────────────────────────────────────
+  Type I   Boundary Drift          : 87.16 ± 0.51 %
+  Type II  Abrupt Collision         : 2.70 ± 0.59 %
+  Type III Oscillatory Instability  : 10.13 ± 0.96 %
+
+  Per-seed taxonomy:
+    seed 42  (98 failures):  I=86(87.8%)  II=3(3.1%)  III=9(9.2%)
+    seed 68  (99 failures):  I=86(86.9%)  II=3(3.0%)  III=10(10.1%)
+    seed 101  (99 failures):  I=86(86.9%)  II=2(2.0%)  III=11(11.1%)
+
+  ──────────────────────────────────────────────────────────────────
+  PER-TYPE FEATURE STATISTICS  (pooled across seeds)
+  ──────────────────────────────────────────────────────────────────
+
+  Type I   Boundary Drift  (n=258: 258 LV, 0 collision)
+    Drift slope            : -0.4414 ± 0.6370
+    Monotone drift frac    : 0.4293 ± 0.4285
+    Pre-failure margin(ft) : 1.5175 ± 1.1485
+    Osc frequency (window) : 0.1528 ± 0.1689
+    Mean jerk (window)     : 0.2235 ± 0.2763
+    Episode length (steps) : 18.3488 ± 33.7762
+
+  Type II  Abrupt Collision  (n=8: 0 LV, 8 collision)
+    Drift slope            : 0.0616 ± 0.2481
+    Monotone drift frac    : 0.2188 ± 0.3644
+    Pre-failure margin(ft) : 3.5642 ± 2.2718
+    Osc frequency (window) : 0.1500 ± 0.2330
+    Mean jerk (window)     : 0.0695 ± 0.0816
+    Episode length (steps) : 4.5000 ± 4.8107
+
+  Type III Oscillatory Instability  (n=30: 29 LV, 1 collision)
+    Drift slope            : -0.3206 ± 0.7003
+    Monotone drift frac    : 0.6278 ± 0.2540
+    Pre-failure margin(ft) : 2.1201 ± 1.2961
+    Osc frequency (window) : 0.5767 ± 0.0430
+    Mean jerk (window)     : 0.4589 ± 0.2429
+    Episode length (steps) : 20.8000 ± 25.6076
+
+====================================================================
+
+====================================================================
+  CONDITION: Lane Width = 12 ft  |  Obstacles = 6  |  100 ep/seed × 3 seeds = 300 total episodes
+====================================================================
+
+  ┌─ EPISODE OUTCOMES
+  │  Lane Violation Rate  : 84.33 ± 3.06 %
+  │  Collision Rate       : 13.33 ± 2.52 %
+  │  Success Rate         : 2.33 ± 2.08 %
+  │  Per-seed             : s42: LVR 85% Col 11% Succ 4%  s68: LVR 87% Col 13% Succ 0%  s101: LVR 81% Col 16% Succ 3%
+
+  ┌─ TIME TO FAILURE  (failed episodes only)
+  │  Mean TTF             : 18.80 ± 6.37 steps
+  │  Mean step at LV      : 15.27 ± 3.17 steps
+  │  Mean step at Col     : 41.88 ± 28.92 steps
+
+  ┌─ SURVIVAL PROBABILITY  S(t) = mean ± SD across seeds
+  │  Format: t=step: mean_S(t) ± SD_S(t)  (N=100 ep/seed, 3 seeds)
+  │  Overall (all failures):
+  │    t=0: 1.000±0.000  t=5: 0.463±0.064  t=10: 0.340±0.052  t=15: 0.280±0.046  t=20: 0.233±0.035  t=25: 0.213±0.031  t=30: 0.193±0.045  t=35: 0.170±0.040  t=40: 0.150±0.036  t=45: 0.140±0.026  t=50: 0.123±0.023  t=55: 0.113±0.023  t=60: 0.113±0.023  t=65: 0.113±0.023  t=70: 0.107±0.021  t=75: 0.093±0.006  t=80: 0.090±0.010  t=85: 0.083±0.015  t=90: 0.083±0.015  t=95: 0.077±0.011  t=100: 0.073±0.006  t=105: 0.067±0.006  t=110: 0.060±0.010  t=115: 0.057±0.006  t=120: 0.050±0.010  t=125: 0.050±0.010  t=130: 0.050±0.010  t=135: 0.050±0.010  t=140: 0.047±0.015  t=145: 0.047±0.015  t=150: 0.047±0.015  t=155: 0.043±0.015  t=160: 0.043±0.015  t=165: 0.043±0.015  t=170: 0.043±0.015  t=175: 0.037±0.006  t=180: 0.033±0.006  t=185: 0.030±0.010  t=189: 0.023±0.021
+  │  Lane Violation only:
+  │    t=0: 1.000±0.000  t=5: 0.493±0.055  t=10: 0.387±0.055  t=15: 0.353±0.040  t=20: 0.313±0.035  t=25: 0.293±0.042  t=30: 0.273±0.040  t=35: 0.253±0.040  t=40: 0.233±0.031  t=45: 0.223±0.025  t=50: 0.213±0.023  t=55: 0.213±0.023  t=60: 0.213±0.023  t=65: 0.213±0.023  t=70: 0.207±0.029  t=75: 0.203±0.032  t=80: 0.203±0.032  t=85: 0.197±0.038  t=90: 0.197±0.038  t=95: 0.190±0.035  t=100: 0.187±0.029  t=105: 0.180±0.017  t=110: 0.180±0.017  t=115: 0.177±0.021  t=120: 0.173±0.023  t=125: 0.173±0.023  t=130: 0.173±0.023  t=135: 0.173±0.023  t=140: 0.170±0.017  t=145: 0.170±0.017  t=150: 0.170±0.017  t=155: 0.167±0.021  t=160: 0.167±0.021  t=165: 0.167±0.021  t=170: 0.167±0.021  t=175: 0.160±0.026  t=180: 0.157±0.031
+  │  Collision only:
+  │    t=0: 1.000±0.000  t=5: 0.970±0.017  t=10: 0.953±0.025  t=15: 0.927±0.031  t=20: 0.920±0.040  t=25: 0.920±0.040  t=30: 0.920±0.040  t=35: 0.917±0.035  t=40: 0.917±0.035  t=45: 0.917±0.035  t=50: 0.910±0.040  t=55: 0.900±0.040  t=60: 0.900±0.040  t=65: 0.900±0.040  t=70: 0.900±0.040  t=75: 0.890±0.026  t=80: 0.887±0.023  t=85: 0.887±0.023  t=90: 0.887±0.023  t=95: 0.887±0.023  t=100: 0.887±0.023  t=105: 0.887±0.023  t=110: 0.880±0.026  t=115: 0.880±0.026  t=120: 0.877±0.032  t=125: 0.877±0.032  t=130: 0.877±0.032  t=135: 0.877±0.032  t=140: 0.877±0.032  t=145: 0.877±0.032  t=150: 0.877±0.032  t=155: 0.877±0.032  t=160: 0.877±0.032  t=165: 0.877±0.032  t=170: 0.877±0.032  t=175: 0.877±0.032  t=180: 0.877±0.032  t=185: 0.873±0.029  t=189: 0.867±0.025
+
+  ┌─ SAFETY MARGIN  (pre-failure steps, critical zone < 0.183 m)
+  │  Mean safety margin   : 2.42 ± 0.20 m
+  │  Mean min margin/ep   : 1.26 ± 0.09 m
+  │  Critical zone %%      : 1.73 ± 0.57 %% of steps
+
+  ┌─ CONTROL SMOOTHNESS  (all steps)
+  │  Mean smoothness      : 0.1900 ± 0.0155
+  │  Mean oscillation freq: 0.4984 ± 0.0092
+  │  Mean jerk            : 0.4000 ± 0.0075
+
+  ──────────────────────────────────────────────────────────────────
+  FAILURE MODE TAXONOMY  (% of failed episodes, mean ± SD across seeds)
+  ──────────────────────────────────────────────────────────────────
+  Type I   Boundary Drift          : 79.17 ± 2.52 %
+  Type II  Abrupt Collision         : 12.64 ± 3.35 %
+  Type III Oscillatory Instability  : 8.20 ± 1.09 %
+
+  Per-seed taxonomy:
+    seed 42  (96 failures):  I=77(80.2%)  II=10(10.4%)  III=9(9.4%)
+    seed 68  (100 failures):  I=81(81.0%)  II=11(11.0%)  III=8(8.0%)
+    seed 101  (97 failures):  I=74(76.3%)  II=16(16.5%)  III=7(7.2%)
+
+  ──────────────────────────────────────────────────────────────────
+  PER-TYPE FEATURE STATISTICS  (pooled across seeds)
+  ──────────────────────────────────────────────────────────────────
+
+  Type I   Boundary Drift  (n=232: 232 LV, 0 collision)
+    Drift slope            : -0.3985 ± 0.6189
+    Monotone drift frac    : 0.3883 ± 0.4291
+    Pre-failure margin(ft) : 1.4287 ± 1.1679
+    Osc frequency (window) : 0.1384 ± 0.1676
+    Mean jerk (window)     : 0.2023 ± 0.2697
+    Episode length (steps) : 14.2974 ± 30.8638
+
+  Type II  Abrupt Collision  (n=37: 0 LV, 37 collision)
+    Drift slope            : 0.1165 ± 0.3792
+    Monotone drift frac    : 0.3176 ± 0.3367
+    Pre-failure margin(ft) : 4.3968 ± 1.7211
+    Osc frequency (window) : 0.2324 ± 0.1857
+    Mean jerk (window)     : 0.2073 ± 0.1767
+    Episode length (steps) : 40.4324 ± 55.0038
+
+  Type III Oscillatory Instability  (n=24: 21 LV, 3 collision)
+    Drift slope            : -0.2831 ± 0.7004
+    Monotone drift frac    : 0.6180 ± 0.2999
+    Pre-failure margin(ft) : 1.9692 ± 1.2576
+    Osc frequency (window) : 0.5833 ± 0.0381
+    Mean jerk (window)     : 0.5053 ± 0.3697
+    Episode length (steps) : 17.8750 ± 18.2312
+
+====================================================================
+
+====================================================================
+  CONDITION: Lane Width = 12 ft  |  Obstacles = 8  |  100 ep/seed × 3 seeds = 300 total episodes
+====================================================================
+
+  ┌─ EPISODE OUTCOMES
+  │  Lane Violation Rate  : 80.67 ± 6.66 %
+  │  Collision Rate       : 18.67 ± 6.51 %
+  │  Success Rate         : 0.67 ± 1.15 %
+  │  Per-seed             : s42: LVR 88% Col 12% Succ 0%  s68: LVR 75% Col 25% Succ 0%  s101: LVR 79% Col 19% Succ 2%
+
+  ┌─ TIME TO FAILURE  (failed episodes only)
+  │  Mean TTF             : 16.00 ± 2.58 steps
+  │  Mean step at LV      : 14.09 ± 6.37 steps
+  │  Mean step at Col     : 20.70 ± 11.93 steps
+
+  ┌─ SURVIVAL PROBABILITY  S(t) = mean ± SD across seeds
+  │  Format: t=step: mean_S(t) ± SD_S(t)  (N=100 ep/seed, 3 seeds)
+  │  Overall (all failures):
+  │    t=0: 1.000±0.000  t=5: 0.440±0.026  t=10: 0.310±0.026  t=15: 0.267±0.006  t=20: 0.220±0.020  t=25: 0.193±0.025  t=30: 0.147±0.038  t=35: 0.130±0.035  t=40: 0.110±0.026  t=45: 0.103±0.023  t=50: 0.097±0.021  t=55: 0.083±0.023  t=60: 0.077±0.021  t=65: 0.073±0.025  t=70: 0.067±0.021  t=75: 0.057±0.031  t=80: 0.053±0.032  t=85: 0.050±0.035  t=90: 0.040±0.036  t=95: 0.033±0.042  t=100: 0.033±0.042  t=105: 0.033±0.042  t=110: 0.033±0.042  t=115: 0.033±0.042  t=120: 0.030±0.036  t=125: 0.027±0.038  t=130: 0.023±0.032  t=135: 0.023±0.032  t=140: 0.020±0.026  t=145: 0.017±0.021  t=150: 0.010±0.010  t=152: 0.007±0.011
+  │  Lane Violation only:
+  │    t=0: 1.000±0.000  t=5: 0.487±0.023  t=10: 0.397±0.015  t=15: 0.357±0.021  t=20: 0.333±0.032  t=25: 0.313±0.035  t=30: 0.283±0.045  t=35: 0.277±0.050  t=40: 0.267±0.055  t=45: 0.263±0.050  t=50: 0.260±0.050  t=55: 0.250±0.056  t=60: 0.243±0.050  t=65: 0.243±0.050  t=70: 0.237±0.051  t=75: 0.227±0.068  t=80: 0.227±0.068  t=85: 0.227±0.068  t=90: 0.223±0.064  t=95: 0.220±0.070  t=100: 0.220±0.070  t=105: 0.220±0.070  t=110: 0.220±0.070  t=115: 0.220±0.070  t=120: 0.217±0.067  t=125: 0.213±0.072  t=130: 0.210±0.069  t=135: 0.210±0.069  t=140: 0.207±0.067  t=145: 0.203±0.064  t=150: 0.197±0.061  t=152: 0.193±0.067
+  │  Collision only:
+  │    t=0: 1.000±0.000  t=5: 0.953±0.006  t=10: 0.913±0.025  t=15: 0.910±0.020  t=20: 0.887±0.015  t=25: 0.880±0.010  t=30: 0.863±0.015  t=35: 0.853±0.023  t=40: 0.843±0.032  t=45: 0.840±0.035  t=50: 0.837±0.038  t=55: 0.833±0.040  t=60: 0.833±0.040  t=65: 0.830±0.044  t=70: 0.830±0.044  t=75: 0.830±0.044  t=80: 0.827±0.047  t=85: 0.823±0.051  t=90: 0.817±0.060  t=95: 0.813±0.065
+
+  ┌─ SAFETY MARGIN  (pre-failure steps, critical zone < 0.183 m)
+  │  Mean safety margin   : 2.60 ± 0.43 m
+  │  Mean min margin/ep   : 1.45 ± 0.09 m
+  │  Critical zone %%      : 1.08 ± 0.85 %% of steps
+
+  ┌─ CONTROL SMOOTHNESS  (all steps)
+  │  Mean smoothness      : 0.2256 ± 0.0353
+  │  Mean oscillation freq: 0.5166 ± 0.0126
+  │  Mean jerk            : 0.3729 ± 0.0611
+
+  ──────────────────────────────────────────────────────────────────
+  FAILURE MODE TAXONOMY  (% of failed episodes, mean ± SD across seeds)
+  ──────────────────────────────────────────────────────────────────
+  Type I   Boundary Drift          : 73.83 ± 2.56 %
+  Type II  Abrupt Collision         : 16.78 ± 6.01 %
+  Type III Oscillatory Instability  : 9.39 ± 3.50 %
+
+  Per-seed taxonomy:
+    seed 42  (100 failures):  I=76(76.0%)  II=11(11.0%)  III=13(13.0%)
+    seed 68  (100 failures):  I=71(71.0%)  II=23(23.0%)  III=6(6.0%)
+    seed 101  (98 failures):  I=73(74.5%)  II=16(16.3%)  III=9(9.2%)
+
+  ──────────────────────────────────────────────────────────────────
+  PER-TYPE FEATURE STATISTICS  (pooled across seeds)
+  ──────────────────────────────────────────────────────────────────
+
+  Type I   Boundary Drift  (n=220: 220 LV, 0 collision)
+    Drift slope            : -0.3531 ± 0.5876
+    Monotone drift frac    : 0.3663 ± 0.4335
+    Pre-failure margin(ft) : 1.5323 ± 1.1429
+    Osc frequency (window) : 0.1113 ± 0.1582
+    Mean jerk (window)     : 0.1752 ± 0.2647
+    Episode length (steps) : 12.3773 ± 28.0918
+
+  Type II  Abrupt Collision  (n=50: 0 LV, 50 collision)
+    Drift slope            : -0.0325 ± 0.3237
+    Monotone drift frac    : 0.4300 ± 0.3781
+    Pre-failure margin(ft) : 3.6734 ± 1.6775
+    Osc frequency (window) : 0.1973 ± 0.1687
+    Mean jerk (window)     : 0.2107 ± 0.1842
+    Episode length (steps) : 23.4600 ± 26.0629
+
+  Type III Oscillatory Instability  (n=28: 22 LV, 6 collision)
+    Drift slope            : -0.3407 ± 0.6859
+    Monotone drift frac    : 0.6190 ± 0.3473
+    Pre-failure margin(ft) : 2.2507 ± 1.4447
+    Osc frequency (window) : 0.5857 ± 0.0356
+    Mean jerk (window)     : 0.5124 ± 0.2329
+    Episode length (steps) : 20.2857 ± 21.8036
+
+====================================================================
+
+====================================================================
+  CONDITION: Lane Width = 12 ft  |  Obstacles = 10  |  100 ep/seed × 3 seeds = 300 total episodes
+====================================================================
+
+  ┌─ EPISODE OUTCOMES
+  │  Lane Violation Rate  : 80.00 ± 2.65 %
+  │  Collision Rate       : 19.67 ± 3.06 %
+  │  Success Rate         : 0.33 ± 0.58 %
+  │  Per-seed             : s42: LVR 81% Col 19% Succ 0%  s68: LVR 77% Col 23% Succ 0%  s101: LVR 82% Col 17% Succ 1%
+
+  ┌─ TIME TO FAILURE  (failed episodes only)
+  │  Mean TTF             : 15.60 ± 6.03 steps
+  │  Mean step at LV      : 16.23 ± 7.60 steps
+  │  Mean step at Col     : 13.77 ± 6.84 steps
+
+  ┌─ SURVIVAL PROBABILITY  S(t) = mean ± SD across seeds
+  │  Format: t=step: mean_S(t) ± SD_S(t)  (N=100 ep/seed, 3 seeds)
+  │  Overall (all failures):
+  │    t=0: 1.000±0.000  t=5: 0.403±0.093  t=10: 0.280±0.070  t=15: 0.210±0.072  t=20: 0.183±0.057  t=25: 0.153±0.050  t=30: 0.133±0.038  t=35: 0.110±0.036  t=40: 0.093±0.038  t=45: 0.087±0.035  t=50: 0.080±0.026  t=55: 0.070±0.026  t=60: 0.070±0.026  t=65: 0.067±0.025  t=70: 0.063±0.025  t=75: 0.060±0.030  t=80: 0.053±0.025  t=85: 0.053±0.025  t=90: 0.047±0.029  t=95: 0.037±0.031  t=100: 0.033±0.025  t=105: 0.030±0.030  t=110: 0.030±0.030  t=115: 0.027±0.031  t=120: 0.027±0.031  t=125: 0.027±0.031  t=130: 0.027±0.031  t=135: 0.027±0.031  t=140: 0.027±0.031  t=145: 0.023±0.032  t=150: 0.023±0.032  t=155: 0.023±0.032  t=160: 0.023±0.032  t=165: 0.023±0.032  t=170: 0.023±0.032  t=175: 0.017±0.021  t=180: 0.013±0.015  t=185: 0.013±0.015  t=190: 0.013±0.015  t=195: 0.003±0.006
+  │  Lane Violation only:
+  │    t=0: 1.000±0.000  t=5: 0.490±0.078  t=10: 0.390±0.070  t=15: 0.347±0.075  t=20: 0.330±0.062  t=25: 0.317±0.051  t=30: 0.303±0.051  t=35: 0.290±0.062  t=40: 0.277±0.067  t=45: 0.277±0.067  t=50: 0.270±0.056  t=55: 0.260±0.056  t=60: 0.260±0.056  t=65: 0.260±0.056  t=70: 0.257±0.057  t=75: 0.253±0.061  t=80: 0.247±0.057  t=85: 0.247±0.057  t=90: 0.240±0.061  t=95: 0.233±0.058  t=100: 0.230±0.052  t=105: 0.227±0.055  t=110: 0.227±0.055  t=115: 0.223±0.058  t=120: 0.223±0.058  t=125: 0.223±0.058  t=130: 0.223±0.058  t=135: 0.223±0.058  t=140: 0.223±0.058  t=145: 0.220±0.061  t=150: 0.220±0.061  t=155: 0.220±0.061  t=160: 0.220±0.061  t=165: 0.220±0.061  t=170: 0.220±0.061  t=175: 0.213±0.049  t=180: 0.210±0.044  t=185: 0.210±0.044  t=190: 0.210±0.044  t=195: 0.200±0.026
+  │  Collision only:
+  │    t=0: 1.000±0.000  t=5: 0.913±0.032  t=10: 0.890±0.020  t=15: 0.863±0.015  t=20: 0.853±0.031  t=25: 0.837±0.035  t=30: 0.830±0.040  t=35: 0.820±0.036  t=40: 0.817±0.042  t=45: 0.810±0.035  t=50: 0.810±0.035  t=55: 0.810±0.035  t=60: 0.810±0.035  t=65: 0.807±0.032  t=70: 0.807±0.032  t=75: 0.807±0.032  t=80: 0.807±0.032  t=85: 0.807±0.032  t=90: 0.807±0.032  t=94: 0.803±0.031
+
+  ┌─ SAFETY MARGIN  (pre-failure steps, critical zone < 0.183 m)
+  │  Mean safety margin   : 2.57 ± 0.30 m
+  │  Mean min margin/ep   : 1.40 ± 0.14 m
+  │  Critical zone %%      : 1.07 ± 0.78 %% of steps
+
+  ┌─ CONTROL SMOOTHNESS  (all steps)
+  │  Mean smoothness      : 0.2350 ± 0.0387
+  │  Mean oscillation freq: 0.5253 ± 0.0342
+  │  Mean jerk            : 0.4056 ± 0.0309
+
+  ──────────────────────────────────────────────────────────────────
+  FAILURE MODE TAXONOMY  (% of failed episodes, mean ± SD across seeds)
+  ──────────────────────────────────────────────────────────────────
+  Type I   Boundary Drift          : 73.59 ± 2.93 %
+  Type II  Abrupt Collision         : 18.72 ± 2.84 %
+  Type III Oscillatory Instability  : 7.69 ± 2.06 %
+
+  Per-seed taxonomy:
+    seed 42  (100 failures):  I=73(73.0%)  II=17(17.0%)  III=10(10.0%)
+    seed 68  (100 failures):  I=71(71.0%)  II=22(22.0%)  III=7(7.0%)
+    seed 101  (99 failures):  I=76(76.8%)  II=17(17.2%)  III=6(6.1%)
+
+  ──────────────────────────────────────────────────────────────────
+  PER-TYPE FEATURE STATISTICS  (pooled across seeds)
+  ──────────────────────────────────────────────────────────────────
+
+  Type I   Boundary Drift  (n=220: 220 LV, 0 collision)
+    Drift slope            : -0.3725 ± 0.6622
+    Monotone drift frac    : 0.3602 ± 0.4231
+    Pre-failure margin(ft) : 1.3865 ± 1.1402
+    Osc frequency (window) : 0.1202 ± 0.1659
+    Mean jerk (window)     : 0.1839 ± 0.2624
+    Episode length (steps) : 14.8227 ± 35.6217
+
+  Type II  Abrupt Collision  (n=56: 0 LV, 56 collision)
+    Drift slope            : 0.0422 ± 0.2742
+    Monotone drift frac    : 0.3065 ± 0.3714
+    Pre-failure margin(ft) : 3.5931 ± 1.9670
+    Osc frequency (window) : 0.2018 ± 0.1778
+    Mean jerk (window)     : 0.2341 ± 0.2545
+    Episode length (steps) : 13.0179 ± 17.5287
+
+  Type III Oscillatory Instability  (n=23: 20 LV, 3 collision)
+    Drift slope            : -0.1544 ± 0.7455
+    Monotone drift frac    : 0.6087 ± 0.2848
+    Pre-failure margin(ft) : 2.3455 ± 1.5356
+    Osc frequency (window) : 0.5870 ± 0.0344
+    Mean jerk (window)     : 0.5152 ± 0.3167
+    Episode length (steps) : 16.5652 ± 24.4109
+
+====================================================================
+
+====================================================================
+  CONDITION: Lane Width = 14 ft  |  Obstacles = 4  |  100 ep/seed × 3 seeds = 300 total episodes
+====================================================================
+
+  ┌─ EPISODE OUTCOMES
+  │  Lane Violation Rate  : 96.00 ± 1.00 %
+  │  Collision Rate       : 3.00 ± 1.73 %
+  │  Success Rate         : 1.00 ± 1.00 %
+  │  Per-seed             : s42: LVR 96% Col 2% Succ 2%  s68: LVR 95% Col 5% Succ 0%  s101: LVR 97% Col 2% Succ 1%
+
+  ┌─ TIME TO FAILURE  (failed episodes only)
+  │  Mean TTF             : 21.22 ± 3.85 steps
+  │  Mean step at LV      : 21.75 ± 4.09 steps
+  │  Mean step at Col     : 4.70 ± 1.81 steps
+
+  ┌─ SURVIVAL PROBABILITY  S(t) = mean ± SD across seeds
+  │  Format: t=step: mean_S(t) ± SD_S(t)  (N=100 ep/seed, 3 seeds)
+  │  Overall (all failures):
+  │    t=0: 1.000±0.000  t=5: 0.497±0.031  t=10: 0.367±0.006  t=15: 0.310±0.017  t=20: 0.260±0.026  t=25: 0.237±0.040  t=30: 0.210±0.061  t=35: 0.197±0.055  t=40: 0.173±0.045  t=45: 0.160±0.030  t=50: 0.150±0.036  t=55: 0.133±0.021  t=60: 0.123±0.015  t=65: 0.117±0.015  t=70: 0.110±0.020  t=75: 0.103±0.021  t=80: 0.093±0.021  t=85: 0.080±0.026  t=90: 0.070±0.020  t=95: 0.067±0.025  t=100: 0.060±0.017  t=105: 0.060±0.017  t=110: 0.057±0.015  t=115: 0.047±0.011  t=120: 0.043±0.015  t=125: 0.043±0.015  t=130: 0.040±0.017  t=135: 0.027±0.011  t=140: 0.023±0.006  t=145: 0.023±0.006  t=150: 0.023±0.006  t=155: 0.020±0.000  t=160: 0.020±0.000  t=165: 0.020±0.000  t=170: 0.020±0.000  t=175: 0.020±0.000  t=180: 0.020±0.000  t=185: 0.017±0.006  t=190: 0.017±0.006  t=195: 0.017±0.006  t=199: 0.010±0.010
+  │  Lane Violation only:
+  │    t=0: 1.000±0.000  t=5: 0.517±0.025  t=10: 0.393±0.015  t=15: 0.337±0.006  t=20: 0.290±0.020  t=25: 0.267±0.029  t=30: 0.240±0.056  t=35: 0.227±0.050  t=40: 0.203±0.047  t=45: 0.190±0.035  t=50: 0.180±0.044  t=55: 0.163±0.035  t=60: 0.153±0.032  t=65: 0.147±0.031  t=70: 0.140±0.036  t=75: 0.133±0.035  t=80: 0.123±0.031  t=85: 0.110±0.026  t=90: 0.100±0.026  t=95: 0.097±0.032  t=100: 0.090±0.030  t=105: 0.090±0.030  t=110: 0.087±0.031  t=115: 0.077±0.029  t=120: 0.073±0.032  t=125: 0.073±0.032  t=130: 0.070±0.035  t=135: 0.057±0.029  t=140: 0.053±0.023  t=145: 0.053±0.023  t=150: 0.053±0.023  t=155: 0.050±0.017  t=160: 0.050±0.017  t=165: 0.050±0.017  t=170: 0.050±0.017  t=175: 0.050±0.017  t=180: 0.050±0.017  t=185: 0.047±0.021  t=190: 0.047±0.021  t=195: 0.047±0.021  t=199: 0.040±0.010
+  │  Collision only:
+  │    t=0: 1.000±0.000  t=5: 0.980±0.010  t=10: 0.973±0.011  t=15: 0.973±0.011  t=18: 0.970±0.017
+
+  ┌─ SAFETY MARGIN  (pre-failure steps, critical zone < 0.213 m)
+  │  Mean safety margin   : 2.93 ± 0.11 m
+  │  Mean min margin/ep   : 1.33 ± 0.12 m
+  │  Critical zone %%      : 1.58 ± 0.18 %% of steps
+
+  ┌─ CONTROL SMOOTHNESS  (all steps)
+  │  Mean smoothness      : 0.2481 ± 0.0030
+  │  Mean oscillation freq: 0.5358 ± 0.0020
+  │  Mean jerk            : 0.4179 ± 0.0649
+
+  ──────────────────────────────────────────────────────────────────
+  FAILURE MODE TAXONOMY  (% of failed episodes, mean ± SD across seeds)
+  ──────────────────────────────────────────────────────────────────
+  Type I   Boundary Drift          : 88.21 ± 1.28 %
+  Type II  Abrupt Collision         : 3.02 ± 1.71 %
+  Type III Oscillatory Instability  : 8.77 ± 2.63 %
+
+  Per-seed taxonomy:
+    seed 42  (98 failures):  I=85(86.7%)  II=2(2.0%)  III=11(11.2%)
+    seed 68  (100 failures):  I=89(89.0%)  II=5(5.0%)  III=6(6.0%)
+    seed 101  (99 failures):  I=88(88.9%)  II=2(2.0%)  III=9(9.1%)
+
+  ──────────────────────────────────────────────────────────────────
+  PER-TYPE FEATURE STATISTICS  (pooled across seeds)
+  ──────────────────────────────────────────────────────────────────
+
+  Type I   Boundary Drift  (n=262: 262 LV, 0 collision)
+    Drift slope            : -0.5093 ± 0.7430
+    Monotone drift frac    : 0.4625 ± 0.4288
+    Pre-failure margin(ft) : 1.6937 ± 1.2311
+    Osc frequency (window) : 0.1668 ± 0.1799
+    Mean jerk (window)     : 0.2440 ± 0.3083
+    Episode length (steps) : 20.0458 ± 36.1801
+
+  Type II  Abrupt Collision  (n=9: 0 LV, 9 collision)
+    Drift slope            : 0.0743 ± 0.2218
+    Monotone drift frac    : 0.1389 ± 0.2205
+    Pre-failure margin(ft) : 3.5603 ± 2.2619
+    Osc frequency (window) : 0.1333 ± 0.2000
+    Mean jerk (window)     : 0.1476 ± 0.1943
+    Episode length (steps) : 4.3333 ± 5.6125
+
+  Type III Oscillatory Instability  (n=26: 26 LV, 0 collision)
+    Drift slope            : -0.4765 ± 0.8252
+    Monotone drift frac    : 0.6923 ± 0.3187
+    Pre-failure margin(ft) : 1.7452 ± 1.1698
+    Osc frequency (window) : 0.5962 ± 0.0196
+    Mean jerk (window)     : 0.5020 ± 0.1964
+    Episode length (steps) : 27.7692 ± 28.7142
+
+====================================================================
+
+====================================================================
+  CONDITION: Lane Width = 14 ft  |  Obstacles = 6  |  100 ep/seed × 3 seeds = 300 total episodes
+====================================================================
+
+  ┌─ EPISODE OUTCOMES
+  │  Lane Violation Rate  : 85.67 ± 2.31 %
+  │  Collision Rate       : 12.00 ± 2.65 %
+  │  Success Rate         : 2.33 ± 2.08 %
+  │  Per-seed             : s42: LVR 87% Col 9% Succ 4%  s68: LVR 87% Col 13% Succ 0%  s101: LVR 83% Col 14% Succ 3%
+
+  ┌─ TIME TO FAILURE  (failed episodes only)
+  │  Mean TTF             : 18.68 ± 5.29 steps
+  │  Mean step at LV      : 15.90 ± 3.45 steps
+  │  Mean step at Col     : 37.36 ± 42.79 steps
+
+  ┌─ SURVIVAL PROBABILITY  S(t) = mean ± SD across seeds
+  │  Format: t=step: mean_S(t) ± SD_S(t)  (N=100 ep/seed, 3 seeds)
+  │  Overall (all failures):
+  │    t=0: 1.000±0.000  t=5: 0.483±0.072  t=10: 0.343±0.081  t=15: 0.267±0.068  t=20: 0.227±0.045  t=25: 0.207±0.035  t=30: 0.183±0.045  t=35: 0.153±0.029  t=40: 0.140±0.020  t=45: 0.130±0.017  t=50: 0.120±0.010  t=55: 0.113±0.006  t=60: 0.110±0.010  t=65: 0.103±0.006  t=70: 0.103±0.006  t=75: 0.090±0.010  t=80: 0.087±0.015  t=85: 0.080±0.017  t=90: 0.080±0.017  t=95: 0.073±0.015  t=100: 0.070±0.010  t=105: 0.070±0.010  t=110: 0.070±0.010  t=115: 0.063±0.006  t=120: 0.057±0.011  t=125: 0.053±0.006  t=130: 0.050±0.000  t=135: 0.050±0.000  t=140: 0.050±0.000  t=145: 0.050±0.000  t=150: 0.050±0.000  t=155: 0.043±0.006  t=160: 0.043±0.006  t=165: 0.043±0.006  t=170: 0.037±0.006  t=175: 0.033±0.011  t=180: 0.033±0.011  t=185: 0.027±0.015  t=188: 0.023±0.021
+  │  Lane Violation only:
+  │    t=0: 1.000±0.000  t=5: 0.513±0.064  t=10: 0.390±0.085  t=15: 0.340±0.062  t=20: 0.307±0.045  t=25: 0.287±0.040  t=30: 0.263±0.040  t=35: 0.240±0.046  t=40: 0.230±0.036  t=45: 0.220±0.026  t=50: 0.213±0.032  t=55: 0.210±0.036  t=60: 0.207±0.031  t=65: 0.200±0.036  t=70: 0.200±0.036  t=75: 0.193±0.042  t=80: 0.190±0.046  t=85: 0.183±0.049  t=90: 0.183±0.049  t=95: 0.177±0.047  t=100: 0.173±0.042  t=105: 0.173±0.042  t=110: 0.173±0.042  t=115: 0.167±0.038  t=120: 0.160±0.044  t=125: 0.157±0.038  t=130: 0.153±0.032  t=135: 0.153±0.032  t=140: 0.153±0.032  t=145: 0.153±0.032  t=150: 0.153±0.032  t=155: 0.147±0.029  t=160: 0.147±0.029  t=165: 0.147±0.029  t=170: 0.147±0.029  t=175: 0.147±0.029  t=180: 0.147±0.029  t=182: 0.143±0.023
+  │  Collision only:
+  │    t=0: 1.000±0.000  t=5: 0.970±0.017  t=10: 0.953±0.025  t=15: 0.927±0.031  t=20: 0.920±0.040  t=25: 0.920±0.040  t=30: 0.920±0.040  t=35: 0.913±0.031  t=40: 0.910±0.036  t=45: 0.910±0.036  t=50: 0.907±0.042  t=55: 0.903±0.040  t=60: 0.903±0.040  t=65: 0.903±0.040  t=70: 0.903±0.040  t=75: 0.897±0.032  t=80: 0.897±0.032  t=85: 0.897±0.032  t=90: 0.897±0.032  t=95: 0.897±0.032  t=100: 0.897±0.032  t=105: 0.897±0.032  t=110: 0.897±0.032  t=115: 0.897±0.032  t=120: 0.897±0.032  t=125: 0.897±0.032  t=130: 0.897±0.032  t=135: 0.897±0.032  t=140: 0.897±0.032  t=145: 0.897±0.032  t=150: 0.897±0.032  t=155: 0.897±0.032  t=160: 0.897±0.032  t=165: 0.897±0.032  t=170: 0.890±0.026  t=175: 0.887±0.025  t=180: 0.887±0.025  t=185: 0.883±0.025  t=188: 0.880±0.026
+
+  ┌─ SAFETY MARGIN  (pre-failure steps, critical zone < 0.213 m)
+  │  Mean safety margin   : 2.81 ± 0.15 m
+  │  Mean min margin/ep   : 1.48 ± 0.20 m
+  │  Critical zone %%      : 2.14 ± 0.32 %% of steps
+
+  ┌─ CONTROL SMOOTHNESS  (all steps)
+  │  Mean smoothness      : 0.2218 ± 0.0175
+  │  Mean oscillation freq: 0.5365 ± 0.0097
+  │  Mean jerk            : 0.4218 ± 0.0555
+
+  ──────────────────────────────────────────────────────────────────
+  FAILURE MODE TAXONOMY  (% of failed episodes, mean ± SD across seeds)
+  ──────────────────────────────────────────────────────────────────
+  Type I   Boundary Drift          : 81.25 ± 5.09 %
+  Type II  Abrupt Collision         : 11.94 ± 2.53 %
+  Type III Oscillatory Instability  : 6.82 ± 2.56 %
+
+  Per-seed taxonomy:
+    seed 42  (96 failures):  I=83(86.5%)  II=9(9.4%)  III=4(4.2%)
+    seed 68  (100 failures):  I=81(81.0%)  II=12(12.0%)  III=7(7.0%)
+    seed 101  (97 failures):  I=74(76.3%)  II=14(14.4%)  III=9(9.3%)
+
+  ──────────────────────────────────────────────────────────────────
+  PER-TYPE FEATURE STATISTICS  (pooled across seeds)
+  ──────────────────────────────────────────────────────────────────
+
+  Type I   Boundary Drift  (n=238: 238 LV, 0 collision)
+    Drift slope            : -0.4750 ± 0.7216
+    Monotone drift frac    : 0.4433 ± 0.4374
+    Pre-failure margin(ft) : 1.7308 ± 1.3555
+    Osc frequency (window) : 0.1638 ± 0.1782
+    Mean jerk (window)     : 0.2448 ± 0.3165
+    Episode length (steps) : 14.6681 ± 28.9537
+
+  Type II  Abrupt Collision  (n=35: 0 LV, 35 collision)
+    Drift slope            : 0.1145 ± 0.3731
+    Monotone drift frac    : 0.2643 ± 0.3373
+    Pre-failure margin(ft) : 4.6501 ± 1.9067
+    Osc frequency (window) : 0.2114 ± 0.1605
+    Mean jerk (window)     : 0.1774 ± 0.1515
+    Episode length (steps) : 39.2286 ± 59.6406
+
+  Type III Oscillatory Instability  (n=20: 19 LV, 1 collision)
+    Drift slope            : -0.5621 ± 0.6386
+    Monotone drift frac    : 0.7167 ± 0.2917
+    Pre-failure margin(ft) : 1.9509 ± 0.9572
+    Osc frequency (window) : 0.5850 ± 0.0366
+    Mean jerk (window)     : 0.5481 ± 0.1955
+    Episode length (steps) : 16.8000 ± 25.0423
+
+====================================================================
+
+====================================================================
+  CONDITION: Lane Width = 14 ft  |  Obstacles = 8  |  100 ep/seed × 3 seeds = 300 total episodes
+====================================================================
+
+  ┌─ EPISODE OUTCOMES
+  │  Lane Violation Rate  : 86.67 ± 6.66 %
+  │  Collision Rate       : 12.33 ± 6.51 %
+  │  Success Rate         : 1.00 ± 1.73 %
+  │  Per-seed             : s42: LVR 94% Col 6% Succ 0%  s68: LVR 81% Col 19% Succ 0%  s101: LVR 85% Col 12% Succ 3%
+
+  ┌─ TIME TO FAILURE  (failed episodes only)
+  │  Mean TTF             : 18.81 ± 2.98 steps
+  │  Mean step at LV      : 18.57 ± 4.59 steps
+  │  Mean step at Col     : 16.40 ± 10.50 steps
+
+  ┌─ SURVIVAL PROBABILITY  S(t) = mean ± SD across seeds
+  │  Format: t=step: mean_S(t) ± SD_S(t)  (N=100 ep/seed, 3 seeds)
+  │  Overall (all failures):
+  │    t=0: 1.000±0.000  t=5: 0.477±0.021  t=10: 0.353±0.029  t=15: 0.303±0.038  t=20: 0.250±0.036  t=25: 0.217±0.021  t=30: 0.173±0.035  t=35: 0.157±0.040  t=40: 0.147±0.045  t=45: 0.133±0.035  t=50: 0.123±0.035  t=55: 0.117±0.031  t=60: 0.107±0.031  t=65: 0.103±0.032  t=70: 0.093±0.032  t=75: 0.083±0.045  t=80: 0.080±0.046  t=85: 0.063±0.040  t=90: 0.053±0.042  t=95: 0.050±0.044  t=100: 0.047±0.046  t=105: 0.047±0.046  t=110: 0.047±0.046  t=115: 0.047±0.046  t=120: 0.043±0.040  t=125: 0.037±0.046  t=130: 0.033±0.040  t=135: 0.027±0.038  t=140: 0.027±0.038  t=145: 0.023±0.032  t=150: 0.013±0.023  t=155: 0.013±0.023  t=160: 0.013±0.023  t=165: 0.013±0.023  t=168: 0.010±0.017
+  │  Lane Violation only:
+  │    t=0: 1.000±0.000  t=5: 0.520±0.020  t=10: 0.417±0.021  t=15: 0.373±0.032  t=20: 0.333±0.032  t=25: 0.307±0.035  t=30: 0.267±0.059  t=35: 0.257±0.068  t=40: 0.250±0.079  t=45: 0.240±0.070  t=50: 0.233±0.072  t=55: 0.230±0.069  t=60: 0.220±0.069  t=65: 0.217±0.067  t=70: 0.207±0.067  t=75: 0.197±0.084  t=80: 0.197±0.084  t=85: 0.183±0.072  t=90: 0.177±0.067  t=95: 0.173±0.072  t=100: 0.170±0.078  t=105: 0.170±0.078  t=110: 0.170±0.078  t=115: 0.170±0.078  t=120: 0.167±0.075  t=125: 0.160±0.078  t=130: 0.157±0.075  t=135: 0.150±0.069  t=140: 0.150±0.069  t=145: 0.147±0.067  t=150: 0.137±0.068  t=155: 0.137±0.068  t=160: 0.137±0.068  t=165: 0.137±0.068  t=168: 0.133±0.067
+  │  Collision only:
+  │    t=0: 1.000±0.000  t=5: 0.957±0.006  t=10: 0.937±0.021  t=15: 0.930±0.026  t=20: 0.917±0.031  t=25: 0.910±0.026  t=30: 0.907±0.031  t=35: 0.900±0.036  t=40: 0.897±0.038  t=45: 0.893±0.042  t=50: 0.890±0.046  t=55: 0.887±0.050  t=60: 0.887±0.050  t=65: 0.887±0.050  t=70: 0.887±0.050  t=75: 0.887±0.050  t=80: 0.883±0.055  t=85: 0.880±0.060  t=89: 0.877±0.065
+
+  ┌─ SAFETY MARGIN  (pre-failure steps, critical zone < 0.213 m)
+  │  Mean safety margin   : 2.90 ± 0.52 m
+  │  Mean min margin/ep   : 1.43 ± 0.10 m
+  │  Critical zone %%      : 1.50 ± 0.68 %% of steps
+
+  ┌─ CONTROL SMOOTHNESS  (all steps)
+  │  Mean smoothness      : 0.2554 ± 0.0425
+  │  Mean oscillation freq: 0.5359 ± 0.0055
+  │  Mean jerk            : 0.3665 ± 0.0205
+
+  ──────────────────────────────────────────────────────────────────
+  FAILURE MODE TAXONOMY  (% of failed episodes, mean ± SD across seeds)
+  ──────────────────────────────────────────────────────────────────
+  Type I   Boundary Drift          : 81.49 ± 6.06 %
+  Type II  Abrupt Collision         : 10.77 ± 5.02 %
+  Type III Oscillatory Instability  : 7.74 ± 1.10 %
+
+  Per-seed taxonomy:
+    seed 42  (100 failures):  I=87(87.0%)  II=6(6.0%)  III=7(7.0%)
+    seed 68  (100 failures):  I=75(75.0%)  II=16(16.0%)  III=9(9.0%)
+    seed 101  (97 failures):  I=80(82.5%)  II=10(10.3%)  III=7(7.2%)
+
+  ──────────────────────────────────────────────────────────────────
+  PER-TYPE FEATURE STATISTICS  (pooled across seeds)
+  ──────────────────────────────────────────────────────────────────
+
+  Type I   Boundary Drift  (n=242: 242 LV, 0 collision)
+    Drift slope            : -0.4803 ± 0.6986
+    Monotone drift frac    : 0.4504 ± 0.4459
+    Pre-failure margin(ft) : 1.5744 ± 1.1651
+    Osc frequency (window) : 0.1479 ± 0.1743
+    Mean jerk (window)     : 0.1966 ± 0.2514
+    Episode length (steps) : 16.8802 ± 31.7272
+
+  Type II  Abrupt Collision  (n=32: 0 LV, 32 collision)
+    Drift slope            : 0.0813 ± 0.4370
+    Monotone drift frac    : 0.2891 ± 0.3542
+    Pre-failure margin(ft) : 4.3924 ± 2.1417
+    Osc frequency (window) : 0.1948 ± 0.1748
+    Mean jerk (window)     : 0.1483 ± 0.1598
+    Episode length (steps) : 18.5312 ± 25.2676
+
+  Type III Oscillatory Instability  (n=23: 18 LV, 5 collision)
+    Drift slope            : -0.2897 ± 0.6833
+    Monotone drift frac    : 0.6196 ± 0.2907
+    Pre-failure margin(ft) : 2.5950 ± 1.6341
+    Osc frequency (window) : 0.5913 ± 0.0288
+    Mean jerk (window)     : 0.5828 ± 0.2540
+    Episode length (steps) : 26.1304 ± 30.5023
+
+====================================================================
+
+====================================================================
+  CONDITION: Lane Width = 14 ft  |  Obstacles = 10  |  100 ep/seed × 3 seeds = 300 total episodes
+====================================================================
+
+  ┌─ EPISODE OUTCOMES
+  │  Lane Violation Rate  : 82.67 ± 0.58 %
+  │  Collision Rate       : 17.00 ± 1.00 %
+  │  Success Rate         : 0.33 ± 0.58 %
+  │  Per-seed             : s42: LVR 83% Col 17% Succ 0%  s68: LVR 82% Col 18% Succ 0%  s101: LVR 83% Col 16% Succ 1%
+
+  ┌─ TIME TO FAILURE  (failed episodes only)
+  │  Mean TTF             : 17.31 ± 4.40 steps
+  │  Mean step at LV      : 18.51 ± 5.47 steps
+  │  Mean step at Col     : 11.71 ± 2.61 steps
+
+  ┌─ SURVIVAL PROBABILITY  S(t) = mean ± SD across seeds
+  │  Format: t=step: mean_S(t) ± SD_S(t)  (N=100 ep/seed, 3 seeds)
+  │  Overall (all failures):
+  │    t=0: 1.000±0.000  t=5: 0.440±0.111  t=10: 0.307±0.068  t=15: 0.233±0.064  t=20: 0.203±0.067  t=25: 0.170±0.044  t=30: 0.157±0.032  t=35: 0.130±0.026  t=40: 0.113±0.025  t=45: 0.107±0.025  t=50: 0.093±0.025  t=55: 0.090±0.026  t=60: 0.090±0.026  t=65: 0.083±0.025  t=70: 0.080±0.020  t=75: 0.070±0.017  t=80: 0.063±0.011  t=85: 0.063±0.011  t=90: 0.057±0.011  t=95: 0.050±0.010  t=100: 0.033±0.015  t=105: 0.033±0.015  t=110: 0.030±0.020  t=115: 0.027±0.021  t=120: 0.027±0.021  t=125: 0.027±0.021  t=130: 0.023±0.025  t=135: 0.023±0.025  t=140: 0.023±0.025  t=145: 0.020±0.026  t=150: 0.020±0.026  t=155: 0.020±0.026  t=160: 0.020±0.026  t=165: 0.020±0.026  t=170: 0.020±0.026  t=175: 0.010±0.010  t=180: 0.010±0.010  t=185: 0.010±0.010  t=190: 0.010±0.010  t=192: 0.003±0.006
+  │  Lane Violation only:
+  │    t=0: 1.000±0.000  t=5: 0.517±0.102  t=10: 0.410±0.078  t=15: 0.370±0.070  t=20: 0.347±0.067  t=25: 0.320±0.044  t=30: 0.310±0.036  t=35: 0.287±0.032  t=40: 0.273±0.029  t=45: 0.270±0.035  t=50: 0.257±0.032  t=55: 0.253±0.031  t=60: 0.253±0.031  t=65: 0.253±0.031  t=70: 0.250±0.026  t=75: 0.240±0.026  t=80: 0.233±0.021  t=85: 0.233±0.021  t=90: 0.227±0.021  t=95: 0.220±0.017  t=100: 0.203±0.023  t=105: 0.203±0.023  t=110: 0.200±0.026  t=115: 0.197±0.029  t=120: 0.197±0.029  t=125: 0.197±0.029  t=130: 0.193±0.032  t=135: 0.193±0.032  t=140: 0.193±0.032  t=145: 0.190±0.035  t=150: 0.190±0.035  t=155: 0.190±0.035  t=160: 0.190±0.035  t=165: 0.190±0.035  t=170: 0.190±0.035  t=175: 0.180±0.017  t=180: 0.180±0.017  t=185: 0.180±0.017  t=190: 0.180±0.017  t=192: 0.173±0.006
+  │  Collision only:
+  │    t=0: 1.000±0.000  t=5: 0.923±0.025  t=10: 0.897±0.015  t=15: 0.863±0.011  t=20: 0.857±0.015  t=25: 0.850±0.010  t=30: 0.847±0.015  t=35: 0.843±0.011  t=40: 0.840±0.017  t=45: 0.837±0.015  t=50: 0.837±0.015  t=55: 0.837±0.015  t=60: 0.837±0.015  t=64: 0.830±0.010
+
+  ┌─ SAFETY MARGIN  (pre-failure steps, critical zone < 0.213 m)
+  │  Mean safety margin   : 2.94 ± 0.25 m
+  │  Mean min margin/ep   : 1.58 ± 0.06 m
+  │  Critical zone %%      : 1.45 ± 0.66 %% of steps
+
+  ┌─ CONTROL SMOOTHNESS  (all steps)
+  │  Mean smoothness      : 0.2623 ± 0.0259
+  │  Mean oscillation freq: 0.5508 ± 0.0131
+  │  Mean jerk            : 0.4036 ± 0.0354
+
+  ──────────────────────────────────────────────────────────────────
+  FAILURE MODE TAXONOMY  (% of failed episodes, mean ± SD across seeds)
+  ──────────────────────────────────────────────────────────────────
+  Type I   Boundary Drift          : 77.27 ± 2.41 %
+  Type II  Abrupt Collision         : 14.72 ± 1.55 %
+  Type III Oscillatory Instability  : 8.02 ± 3.58 %
+
+  Per-seed taxonomy:
+    seed 42  (100 failures):  I=75(75.0%)  II=13(13.0%)  III=12(12.0%)
+    seed 68  (100 failures):  I=77(77.0%)  II=16(16.0%)  III=7(7.0%)
+    seed 101  (99 failures):  I=79(79.8%)  II=15(15.2%)  III=5(5.1%)
+
+  ──────────────────────────────────────────────────────────────────
+  PER-TYPE FEATURE STATISTICS  (pooled across seeds)
+  ──────────────────────────────────────────────────────────────────
+
+  Type I   Boundary Drift  (n=231: 231 LV, 0 collision)
+    Drift slope            : -0.4523 ± 0.7192
+    Monotone drift frac    : 0.4138 ± 0.4279
+    Pre-failure margin(ft) : 1.7231 ± 1.2683
+    Osc frequency (window) : 0.1369 ± 0.1697
+    Mean jerk (window)     : 0.2149 ± 0.2727
+    Episode length (steps) : 16.8658 ± 33.1717
+
+  Type II  Abrupt Collision  (n=44: 0 LV, 44 collision)
+    Drift slope            : 0.0999 ± 0.3751
+    Monotone drift frac    : 0.2708 ± 0.3513
+    Pre-failure margin(ft) : 4.4004 ± 2.4554
+    Osc frequency (window) : 0.1250 ± 0.1523
+    Mean jerk (window)     : 0.2117 ± 0.2380
+    Episode length (steps) : 10.7500 ± 15.2180
+
+  Type III Oscillatory Instability  (n=24: 17 LV, 7 collision)
+    Drift slope            : -0.1520 ± 0.6748
+    Monotone drift frac    : 0.6285 ± 0.3595
+    Pre-failure margin(ft) : 2.9384 ± 1.9807
+    Osc frequency (window) : 0.5833 ± 0.0381
+    Mean jerk (window)     : 0.5223 ± 0.2396
+    Episode length (steps) : 21.3333 ± 43.7231
+
+====================================================================
+
+═════════════════════════════════════════════════════════════════
+  SAFETY ENVELOPE  —  SAC Controller
+  Gates (on seed-averaged means):
+    L  LVR  ≤ 50%      (lane-violation rate)
+    C  Col  ≤ 15%      (collision rate)
+    T  TTF  ≥ 30 steps  (mean time-to-failure)
+  Seeds: [42, 68, 101]   |   100 episodes per seed
+═════════════════════════════════════════════════════════════════
+
+  TABLE 1  Verdict  (PASS / FAIL + which gates failed)
+  ─────────┬─────────────┬─────────────┬─────────────┬─────────────┬
+           │    4 obs    │    6 obs    │    8 obs    │   10 obs    │
+  ─────────┼─────────────┼─────────────┼─────────────┼─────────────┼
+    14 ft  │  FAIL(LT)   │  FAIL(LT)   │  FAIL(LT)   │  FAIL(LCT)  │
+    12 ft  │  FAIL(LT)   │  FAIL(LT)   │  FAIL(LCT)  │  FAIL(LCT)  │
+    11 ft  │  FAIL(LT)   │  FAIL(LT)   │  FAIL(LCT)  │  FAIL(LCT)  │
+    10 ft  │  FAIL(LT)   │  FAIL(LT)   │  FAIL(LCT)  │  FAIL(LCT)  │
+  ─────────┼─────────────┼─────────────┼─────────────┼─────────────┼
+
+  TABLE 2  Mean metrics  (LVR% | Col% | TTF steps)  [thresholds: ≤50 | ≤15 | ≥30]
+  ─────────┬─────────────┬─────────────┬─────────────┬─────────────┬
+           │    4 obs    │    6 obs    │    8 obs    │   10 obs    │
+  ─────────┼─────────────┼─────────────┼─────────────┼─────────────┼
+    14 ft  │   96|3|21   │  86|12|19   │  87|12|19   │  83|17|17   │
+    12 ft  │   96|3|19   │  84|13|19   │  81|19|16   │  80|20|16   │
+    11 ft  │   96|3|19   │  85|13|18   │  82|17|16   │  82|18|15   │
+    10 ft  │   95|3|18   │  85|14|18   │  82|18|14   │  80|19|15   │
+  ─────────┼─────────────┼─────────────┼─────────────┼─────────────┼
+
+  TABLE 3  Per-seed agreement  (how many of the 3 seeds individually PASS)
+  ─────────┬─────────────┬─────────────┬─────────────┬─────────────┬
+           │    4 obs    │    6 obs    │    8 obs    │   10 obs    │
+  ─────────┼─────────────┼─────────────┼─────────────┼─────────────┼
+    14 ft  │  0/3 pass   │  0/3 pass   │  0/3 pass   │  0/3 pass   │
+    12 ft  │  0/3 pass   │  0/3 pass   │  0/3 pass   │  0/3 pass   │
+    11 ft  │  0/3 pass   │  0/3 pass   │  0/3 pass   │  0/3 pass   │
+    10 ft  │  0/3 pass   │  0/3 pass   │  0/3 pass   │  0/3 pass   │
+  ─────────┼─────────────┼─────────────┼─────────────┼─────────────┼
+
+  Overall: 0 PASS  |  16 FAIL  (out of 16 conditions)
+  Gate failures: LVR=16/16  Col=7/16  TTF=16/16
+═════════════════════════════════════════════════════════════════
+
+========================================================================
+  THRESHOLD SENSITIVITY ANALYSIS  —  TWO-TIER SYSTEM
+  Same episode data as main sweep — no additional episodes needed.
+  Seeds: [42, 68, 101]  |  100 ep/seed  |  16 conditions
+
+  TIER 1 — Absolute deployment standard:
+    Answers: "Is this controller safe enough to deploy?"
+    Expected outcome: all controllers fail (none are deployment-ready).
+
+  TIER 2 — Relative operational envelope:
+    Calibrated to ~25th percentile of observed performance.
+    Answers: "Where is this controller relatively safer?"
+    Enables cross-algorithm comparison and identifies safety boundary.
+
+  Four threshold regimes (strict → standard → operational → lenient):
+    strict       [Tier 1]   LVR≤20%   Col≤5%   TTF≥60 steps
+    standard     [Tier 1]   LVR≤50%   Col≤15%   TTF≥30 steps
+    operational  [Tier 2]   LVR≤75%   Col≤20%   TTF≥20 steps
+    lenient      [Tier 2]   LVR≤80%   Col≤30%   TTF≥10 steps
+========================================================================
+
+  Regime: STRICT  (LVR≤20%  Col≤5%  TTF≥60)  →  0/16 PASS
+  ─────────┬─────────────┬─────────────┬─────────────┬─────────────┬
+           │    4 obs    │    6 obs    │    8 obs    │   10 obs    │
+  ─────────┼─────────────┼─────────────┼─────────────┼─────────────┼
+    14 ft  │  FAIL(LT)   │  FAIL(LCT)  │  FAIL(LCT)  │  FAIL(LCT)  │
+    12 ft  │  FAIL(LT)   │  FAIL(LCT)  │  FAIL(LCT)  │  FAIL(LCT)  │
+    11 ft  │  FAIL(LT)   │  FAIL(LCT)  │  FAIL(LCT)  │  FAIL(LCT)  │
+    10 ft  │  FAIL(LT)   │  FAIL(LCT)  │  FAIL(LCT)  │  FAIL(LCT)  │
+  ─────────┼─────────────┼─────────────┼─────────────┼─────────────┼
+
+  Regime: STANDARD  (LVR≤50%  Col≤15%  TTF≥30)  →  0/16 PASS
+  ─────────┬─────────────┬─────────────┬─────────────┬─────────────┬
+           │    4 obs    │    6 obs    │    8 obs    │   10 obs    │
+  ─────────┼─────────────┼─────────────┼─────────────┼─────────────┼
+    14 ft  │  FAIL(LT)   │  FAIL(LT)   │  FAIL(LT)   │  FAIL(LCT)  │
+    12 ft  │  FAIL(LT)   │  FAIL(LT)   │  FAIL(LCT)  │  FAIL(LCT)  │
+    11 ft  │  FAIL(LT)   │  FAIL(LT)   │  FAIL(LCT)  │  FAIL(LCT)  │
+    10 ft  │  FAIL(LT)   │  FAIL(LT)   │  FAIL(LCT)  │  FAIL(LCT)  │
+  ─────────┼─────────────┼─────────────┼─────────────┼─────────────┼
+
+  Regime: OPERATIONAL  (LVR≤75%  Col≤20%  TTF≥20)  →  0/16 PASS
+  ─────────┬─────────────┬─────────────┬─────────────┬─────────────┬
+           │    4 obs    │    6 obs    │    8 obs    │   10 obs    │
+  ─────────┼─────────────┼─────────────┼─────────────┼─────────────┼
+    14 ft  │   FAIL(L)   │  FAIL(LT)   │  FAIL(LT)   │  FAIL(LT)   │
+    12 ft  │  FAIL(LT)   │  FAIL(LT)   │  FAIL(LT)   │  FAIL(LT)   │
+    11 ft  │  FAIL(LT)   │  FAIL(LT)   │  FAIL(LT)   │  FAIL(LT)   │
+    10 ft  │  FAIL(LT)   │  FAIL(LT)   │  FAIL(LT)   │  FAIL(LT)   │
+  ─────────┼─────────────┼─────────────┼─────────────┼─────────────┼
+
+  Regime: LENIENT  (LVR≤80%  Col≤30%  TTF≥10)  →  1/16 PASS
+  ─────────┬─────────────┬─────────────┬─────────────┬─────────────┬
+           │    4 obs    │    6 obs    │    8 obs    │   10 obs    │
+  ─────────┼─────────────┼─────────────┼─────────────┼─────────────┼
+    14 ft  │   FAIL(L)   │   FAIL(L)   │   FAIL(L)   │   FAIL(L)   │
+    12 ft  │   FAIL(L)   │   FAIL(L)   │   FAIL(L)   │    PASS     │
+    11 ft  │   FAIL(L)   │   FAIL(L)   │   FAIL(L)   │   FAIL(L)   │
+    10 ft  │   FAIL(L)   │   FAIL(L)   │   FAIL(L)   │   FAIL(L)   │
+  ─────────┼─────────────┼─────────────┼─────────────┼─────────────┼
+
+========================================================================
+  STABILITY CLASSIFICATION  (across all 4 threshold regimes)
+  ROBUST PASS  = passes under ALL 4 regimes  (reliably safe)
+  MARGINAL     = verdict changes across regimes  (threshold-sensitive)
+  ROBUST FAIL  = fails under ALL 4 regimes  (reliably unsafe)
+
+  Note: ROBUST PASS requires passing even the strict Tier-1 regime.
+        MARGINAL conditions pass at least one regime — these identify
+        the safety boundary and the controller's operational envelope.
+========================================================================
+
+  Condition                Strict      Standard    Operational    Lenient     Stability
+  ──────────────────────────────────────────────────────────────────────────────────────
+  14ft/4obs                 FAIL         FAIL         FAIL         FAIL       ROBUST FAIL
+  14ft/6obs                 FAIL         FAIL         FAIL         FAIL       ROBUST FAIL
+  14ft/8obs                 FAIL         FAIL         FAIL         FAIL       ROBUST FAIL
+  14ft/10obs                FAIL         FAIL         FAIL         FAIL       ROBUST FAIL
+  12ft/4obs                 FAIL         FAIL         FAIL         FAIL       ROBUST FAIL
+  12ft/6obs                 FAIL         FAIL         FAIL         FAIL       ROBUST FAIL
+  12ft/8obs                 FAIL         FAIL         FAIL         FAIL       ROBUST FAIL
+  12ft/10obs                FAIL         FAIL         FAIL         PASS       MARGINAL
+  11ft/4obs                 FAIL         FAIL         FAIL         FAIL       ROBUST FAIL
+  11ft/6obs                 FAIL         FAIL         FAIL         FAIL       ROBUST FAIL
+  11ft/8obs                 FAIL         FAIL         FAIL         FAIL       ROBUST FAIL
+  11ft/10obs                FAIL         FAIL         FAIL         FAIL       ROBUST FAIL
+  10ft/4obs                 FAIL         FAIL         FAIL         FAIL       ROBUST FAIL
+  10ft/6obs                 FAIL         FAIL         FAIL         FAIL       ROBUST FAIL
+  10ft/8obs                 FAIL         FAIL         FAIL         FAIL       ROBUST FAIL
+  10ft/10obs                FAIL         FAIL         FAIL         FAIL       ROBUST FAIL
+
+========================================================================
+  SUMMARY
+========================================================================
+  Robust PASS  :  0/16  (none)
+  Marginal     :  1/16  ['12ft/10obs']
+  Robust FAIL  : 15/16  ['14ft/4obs', '14ft/6obs', '14ft/8obs', '14ft/10obs', '12ft/4obs', '12ft/6obs', '12ft/8obs', '11ft/4obs', '11ft/6obs', '11ft/8obs', '11ft/10obs', '10ft/4obs', '10ft/6obs', '10ft/8obs', '10ft/10obs']
+
+  Interpretation:
+  · Robust PASS: safe under all regimes including strict Tier-1.
+    These conditions meet deployment standards regardless of threshold choice.
+  · Marginal: passes under at least one regime.
+    Tier-1 passes → approaching deployment readiness.
+    Tier-2 passes only → identifies the operational safety boundary;
+    controller is relatively safer here but not yet deployable.
+  · Robust FAIL: unsafe under all regimes including lenient Tier-2.
+    These conditions require fundamental controller redesign.
+========================================================================
