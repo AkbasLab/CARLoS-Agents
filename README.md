@@ -32,4 +32,4 @@ step 4: Write "pip3 install -r requirements.txt" in the terminal and press enter
 
 step 5: Write "python3 -m rlagent.test_env" in the terminal and press enter. If the terminal is on full screen, exit it because then you may not see the simulation
 
-Now you should see logs in the terminal and a simulation window open.
+This should reult in a visualisation of logs in the terminal and open up a simulation window.
